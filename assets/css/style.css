@@ -55,6 +55,8 @@ h1, h2 {
     word-spacing: 10px;
     background-color: rgb(71, 71, 70); 
     text-align: center;
+    border-bottom: 1px solid rgb(41, 43, 43);
+
   
 }
 
@@ -62,6 +64,7 @@ h1, h2 {
     list-style-type: none;
     float: none;
     display: inline-block;
+    padding: 5pxs 0 5px 0;
 }
 
 #navbar a {
@@ -76,3 +79,5 @@ h1, h2 {
 .active {
     color: rgb(176, 179, 11);
 }
+
+/* main image */
