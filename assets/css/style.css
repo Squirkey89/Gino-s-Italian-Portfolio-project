@@ -20,7 +20,11 @@ h1, h2 {
     font-family: Nunito, sans-serif;
     text-transform: uppercase;
     color: white;
-    letter-spacing: 12px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
 }
 
 /* logo */
@@ -81,3 +85,18 @@ h1, h2 {
 }
 
 /* main image */
+#image {
+    background: url('../images/pexels-waldemar-brandt-2290070.jpg') no-repeat center center;
+    background-size: cover;
+    height: 600px;
+}
+
+/* Introduction */
+#intro {
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 20px;
+}
+
+
+
