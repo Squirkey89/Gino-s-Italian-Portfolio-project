@@ -59,7 +59,7 @@ header{
     word-spacing: 10px;
     background-color: rgb(71, 71, 70); 
     text-align: center;
-    border-bottom: 1px solid rgb(41, 43, 43);
+    border-bottom: 2px solid rgb(41, 43, 43);
 
   
 }
@@ -95,7 +95,7 @@ header{
 #intro {
     text-align: center;
     letter-spacing: 4px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 
