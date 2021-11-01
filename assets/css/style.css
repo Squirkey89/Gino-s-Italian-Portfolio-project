@@ -46,3 +46,33 @@ h1, h2 {
     letter-spacing: 12px;
     
 }
+
+/* navigation bar */
+
+#navbar {
+    font-size: 100%;
+    letter-spacing: 2px; 
+    word-spacing: 10px;
+    background-color: rgb(71, 71, 70); 
+    text-align: center;
+  
+}
+
+#navbar li {
+    list-style-type: none;
+    float: none;
+    display: inline-block;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover {
+    color: rgb(176, 179, 11);
+}
+ 
+.active {
+    color: rgb(176, 179, 11);
+}
