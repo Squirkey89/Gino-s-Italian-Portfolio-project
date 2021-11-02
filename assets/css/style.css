@@ -100,7 +100,7 @@ header{
     margin-bottom: 100px;
 }
 
-/* Opening hours */
+/* Opening hours and background image*/
 
 #hours{
     width: 100%;
@@ -115,7 +115,7 @@ header{
 
 
 }
-/* background hours image */
+
 #cont-img{
     background: url('../images/pexels-cottonbro-3298637.jpg') no-repeat center center;
     background-size: cover;
@@ -127,4 +127,35 @@ header{
 
 }
 
+/* Takeaway text and images */
 
+#takeaway {
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 50px;
+}
+
+#pic1 {
+    float: left;
+    height: 350px;
+    width: 45%;
+    margin: 40px 0px 0px 40px;
+    padding-left: 20px;
+    
+}
+
+#pic2 {
+    float: right;
+    height: 740px;
+    width: 45%;
+    margin: 40px 40px 40px 0px;
+    padding-right: 20px;
+}
+
+#pic3 {
+    float: left;
+    height: 350px;
+    width: 45%;
+    margin: 40px 0px 0px 40px;
+    padding-left: 20px;
+}
