@@ -63,8 +63,8 @@ header{
     background-color: rgb(71, 71, 70); 
     text-align: center;
     border-bottom: 2px solid rgb(41, 43, 43);
-
-  
+    margin: 10px 0 10px 0;
+    
 }
 
 #navbar li {
@@ -88,11 +88,20 @@ header{
 }
 
 /* main image */
+
+#outer-image{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
 #image {
     background: url('../images/pexels-waldemar-brandt-2290070.jpg') no-repeat center center;
     background-size: cover;
-    height: 700px;
+    height: 600px;
     width: 100%;
+    margin-top: 100px;
 }
 
 
@@ -115,13 +124,11 @@ header{
     text-shadow: 2px 2px black;
     font-family: sans-serif;
     list-style-type: none;
-
-
-}
-
-ul li {
     line-height: 60px;
+
+
 }
+
 
 #cont-img{
     background: url('../images/pexels-cottonbro-3298637.jpg') no-repeat center center;
@@ -155,7 +162,7 @@ ul li {
     float: right;
     height: 740px;
     width: 45%;
-    margin: 40px 40px 40px 0px;
+    margin: 40px 40px 60px 0px;
     padding-right: 20px;
 }
 
@@ -163,16 +170,23 @@ ul li {
     float: left;
     height: 350px;
     width: 45%;
-    margin: 40px 0px 0px 40px;
+    margin: 40px 0px 60px 40px;
     padding-left: 20px;
 }
 
 /* Contact info */
+
+iframe{
+    padding: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(176, 179, 11);
+    margin:20px 0 20px 20px;
+}
 
 
 
 footer{
     margin-top: auto;
     background-color:rgb(41, 43, 43);
-    height: 200px;
+    height: 150px;
 }
