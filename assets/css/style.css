@@ -182,7 +182,9 @@ footer{
     margin-top: auto;
     background-color:rgb(41, 43, 43);
     height: 250px;
-    justify-content: center;    
+    padding-top: 50px;
+    padding-left: 15%;
+
 }
 
 footer h3{
@@ -191,27 +193,27 @@ footer h3{
 #time{
     color: rgb(176, 179, 11);
     width: 33.3%;
-    line-height: 40px;
     float: left;
-    padding-top: 40px;
+    line-height: 40px;
+
+    
 }
 
 #contact{
     color: rgb(176, 179, 11);
     width: 33.3%;
-    line-height: 40px;
     float: left;
     list-style-type: none;
-    padding: 40px 0 0;
+    line-height: 40px;
+
 }
 
 #socials{
     color: rgb(176, 179, 11);
     width: 33.3%;
-    line-height: 40px;
     float: right;
     list-style-type: none;
-    padding-top: 40px;
+    line-height: 40px;
 }
 
 .fab{
