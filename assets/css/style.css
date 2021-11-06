@@ -182,40 +182,48 @@ footer{
     margin-top: auto;
     background-color:rgb(41, 43, 43);
     height: 250px;
-    padding-top: 50px;
-    padding-left: 15%;
-
+    padding: 30px 0 30px;    
 }
 
 footer h3{
     text-decoration: underline;
 }
+
+
+
 #time{
     color: rgb(176, 179, 11);
-    width: 33.3%;
-    float: left;
+    width: 20%;
     line-height: 40px;
-
-    
+    list-style-type: none;    
+    margin: auto;
 }
 
 #contact{
     color: rgb(176, 179, 11);
-    width: 33.3%;
+    width: 20%;
     float: left;
     list-style-type: none;
     line-height: 40px;
-
+    margin-left: 10%;
 }
 
 #socials{
     color: rgb(176, 179, 11);
-    width: 33.3%;
-    float: right;
+    width: 20%;
     list-style-type: none;
     line-height: 40px;
+    float: right;
+    margin-right: 10%;
 }
 
 .fab{
     color: rgb(176, 179, 11);
+}
+
+#copyright{
+    background-color: rgb(71, 71, 70); 
+    text-align: center;
+    padding: 35px;
+    margin-top: 30px;
 }
