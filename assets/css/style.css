@@ -238,13 +238,29 @@ footer h3{
     text-align: center;
 }
 
-/*about main content*/
+/*about main image*/
 
 #about { 
-    width: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 150px;
-    height: 650px;
+    width: 100%;
 }
 
+/* Our story section*/
+#story{
+    padding: 40px;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+#story h3{
+    text-align: center;
+}
+
+/*our mission*/
+
+#mission{
+    text-align: justify;
+}
 
