@@ -28,6 +28,7 @@ h1, h2 {
 header{
     width: 100%;
     margin-top: 0px;
+    height: 400px;
     position: fixed;
 }
 
@@ -95,7 +96,7 @@ header{
     background-size: cover;
     height: 600px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 
@@ -236,3 +237,14 @@ footer h3{
     right: 0px;
     text-align: center;
 }
+
+/*about main content*/
+
+#about { 
+    width: 100%;
+    background-size: cover;
+    margin-top: 150px;
+    height: 650px;
+}
+
+
