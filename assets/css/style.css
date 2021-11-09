@@ -8,7 +8,6 @@
 
 body {
     font-family: Raleway, sans-serif;
-    font-weight: 100;
     color: white;
     background-color: rgb(62, 63, 63) ;
     letter-spacing: 1px;
@@ -103,10 +102,15 @@ header{
 /* Introduction */
 
 #intro {
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1.3em;
+    padding: 40px;
+}
+#intro h3{
     text-align: center;
-    letter-spacing: 4px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding: 20px;
 }
 
 /* Opening hours and background image*/
@@ -139,9 +143,16 @@ header{
 /* Takeaway text and images */
 
 #takeaway {
-    text-align: center;
-    letter-spacing: 4px;
+    text-align: justify;
     margin-top: 60px;
+    font-size: 1.3em;
+    padding: 40px;
+
+}
+#takeaway h3 {
+    text-align: center;
+    padding: 20px;
+
 }
 
 #pic1 {
@@ -245,6 +256,7 @@ footer h3{
     background-repeat: no-repeat;
     margin-top: 150px;
     width: 100%;
+    height: 600px;
 }
 
 /* Our story section*/
@@ -256,6 +268,7 @@ footer h3{
 
 #story h3{
     text-align: center;
+    padding: 20px;
 }
 
 /*our mission*/
@@ -264,3 +277,8 @@ footer h3{
     text-align: justify;
 }
 
+#feedback{
+    padding: 20px;
+    text-align: justify;
+
+}
