@@ -72,7 +72,7 @@ header{
     list-style-type: none;
     float: none;
     display: inline-block;
-    padding: 5pxs 0 5px 0;
+    padding: 5px 0 5px 0;
 }
 
 #navbar a {
@@ -91,11 +91,16 @@ header{
 /* main image */
 
 #image {
-    background: url('../images/pexels-waldemar-brandt-2290070.jpg') no-repeat center center;
+    background: url('../images/pexels-waldemar-brandt-2290070 (2).jpg') no-repeat center center;
     background-size: cover;
     height: 600px;
     width: 100%;
     margin-top: 150px;
+}
+#image h1{
+    text-align: center;  
+    padding-top: 290px;
+    text-shadow: 2px 2px rgb(0, 0, 0);  
 }
 
 
@@ -183,9 +188,12 @@ header{
 /* Contact info */
 
 iframe{
-    margin:20px 0px 20px 120px;
+    margin:20px 0px 40px 120px;
     border: rgb(176, 179, 11) 1px solid;
     padding: 20px;
+    width: 80%;
+    height: 200px;
+    
 }
 
 
