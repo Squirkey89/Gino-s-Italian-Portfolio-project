@@ -268,41 +268,15 @@ footer h3{
 }
 
 /* Our story section*/
-#story{
-    padding: 40px;
+.headings {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 40px;
+}
+
+.statement {
+    padding: 20px 40px;
     text-align: justify;
     font-size: 1.3em;
+
 }
-
-#story h3 {
-    text-align: center;
-    padding: 20px;
-}
-
-/*our mission*/
-
-#mission {
-    padding: 40px;
-    text-align: justify;
-    font-size: 1.3em;
-}
-
-#mission h3 {
-    text-align: center;
-    padding: 20px;
-}
-
-/*feedback*/
-
-#feedback {
-    padding: 40px;
-    text-align: justify;
-    font-size: 1.3em;
-    margin-bottom: 80px;
-}
-
-#feedback h3 {
-    text-align: center;
-    padding: 20px;
-}
-
