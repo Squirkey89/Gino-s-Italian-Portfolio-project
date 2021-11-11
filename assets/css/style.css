@@ -333,3 +333,19 @@ textarea {
     border-radius: 8px;
     box-sizing: border-box;
 }
+
+label {
+    margin: 8px 0 20px 130px;
+    color: white;
+    font-size: 1.2em;
+}
+
+#button {
+    width: 40%;
+    background-color: #ff0000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0 20px 190px;
+    border: 1px solid white;
+    border-radius:4px 4px;
+}
