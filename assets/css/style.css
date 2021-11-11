@@ -1,282 +1,280 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Raleway:wght@300&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
-    border: none;
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
 }
 
 body {
-    font-family: Raleway, sans-serif;
-    color: white;
-    background-color: rgb(62, 63, 63) ;
-    letter-spacing: 1px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-size: 110%;
+	font-family: Raleway, sans-serif;
+	color: white;
+	background-color: rgb(62, 63, 63);
+	letter-spacing: 1px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-size: 110%;
 }
+
 
 /* headings */
 
-h1, h2 {
-    font-family: Nunito, sans-serif;
-    text-transform: uppercase;
-    color: white;
+h1,
+h2 {
+	font-family: Nunito, sans-serif;
+	text-transform: uppercase;
+	color: white;
 }
-header{
-    width: 100%;
-    margin-top: 0px;
-    height: 400px;
-    position: fixed;
+
+header {
+	width: 100%;
+	margin-top: 0px;
+	height: 400px;
+	position: fixed;
 }
+
 
 /* logo */
 
 #logo1 {
-    text-align: center;
-    font-size: 250%;
-    padding-top: 20px;
-    float: left;
-    width: 100%;
-    background-color: rgb(41, 43, 43);
-    color: rgb(176, 179, 11);
-    letter-spacing: 12px;
-
-
+	text-align: center;
+	font-size: 250%;
+	padding-top: 20px;
+	float: left;
+	width: 100%;
+	background-color: rgb(41, 43, 43);
+	color: rgb(176, 179, 11);
+	letter-spacing: 12px;
 }
+
 #logo2 {
-    text-align: center;
-    float:left;
-    width: 100%;
-    font-size: 200%;
-    background-color: black;
-    letter-spacing: 12px;
-    
+	text-align: center;
+	float: left;
+	width: 100%;
+	font-size: 200%;
+	background-color: black;
+	letter-spacing: 12px;
 }
+
 
 /* navigation bar */
 
 #navbar {
-    font-size: 100%;
-    letter-spacing: 2px; 
-    word-spacing: 10px;
-    background-color: rgb(71, 71, 70); 
-    text-align: center;
-    border-bottom: 2px solid rgb(41, 43, 43);
-    margin: 10px 0 10px 0;
-    
+	font-size: 100%;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	background-color: rgb(71, 71, 70);
+	text-align: center;
+	border-bottom: 2px solid rgb(41, 43, 43);
+	margin: 10px 0 10px 0;
 }
 
 #navbar li {
-    list-style-type: none;
-    float: none;
-    display: inline-block;
-    padding: 5px 0 5px 0;
+	list-style-type: none;
+	float: none;
+	display: inline-block;
+	padding: 5px 0 5px 0;
 }
 
 #navbar a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 #navbar a:hover {
-    color: rgb(176, 179, 11);
+	color: rgb(176, 179, 11);
 }
- 
+
 .active {
-    color: rgb(176, 179, 11);
+	color: rgb(176, 179, 11);
 }
+
 
 /* main image */
 
 #image {
-    background: url('../images/pexels-waldemar-brandt-2290070.jpg') no-repeat center center;
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-    margin-top: 150px;
+	background: url('../images/pexels-waldemar-brandt-2290070.jpg') no-repeat center center;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+	margin-top: 150px;
 }
-#image h1{
-    text-align: center;  
-    padding-top: 290px;
-    text-shadow: 2px 2px rgb(0, 0, 0);  
+
+#image h1 {
+	text-align: center;
+	padding-top: 290px;
+	text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 
 /* Introduction */
 
 #intro {
-    text-align: justify;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-size: 1.3em;
-    padding: 40px;
+	text-align: justify;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 1.3em;
+	padding: 40px;
 }
-#intro h3{
-    text-align: center;
-    padding: 20px;
+
+#intro h3 {
+	font-size: 1.3em;
+	text-align: center;
+	padding: 20px;
 }
+
 
 /* Opening hours and background image*/
 
-#hours{
-    width: 100%;
-    height: 500px;
-    padding-top: 50px;
-    text-align: center;
-    text-shadow: 2px 2px black;
-    font-family: sans-serif;
-    list-style-type: none;
-    line-height: 60px;
-
-
+#hours {
+	width: 100%;
+	height: 500px;
+	padding-top: 50px;
+	text-align: center;
+	text-shadow: 2px 2px black;
+	font-family: sans-serif;
+	list-style-type: none;
+	line-height: 60px;
 }
 
-
-#cont-img{
-    background: url('../images/pexels-cottonbro-3298637.jpg') no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 600px;
-    padding: 10px 0 10px 0;
-    font-size: 120%;
-    color: white;
-
+#cont-img {
+	background: url('../images/pexels-cottonbro-3298637.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	padding: 10px 0 10px 0;
+	font-size: 120%;
+	color: white;
 }
+
 
 /* Takeaway text and images */
 
 #takeaway {
-    text-align: justify;
-    margin-top: 60px;
-    font-size: 1.3em;
-    padding: 40px;
-
+	text-align: justify;
+	margin-top: 60px;
+	font-size: 1.3em;
+	padding: 40px;
 }
-#takeaway h3 {
-    text-align: center;
-    padding: 20px;
 
+#takeaway h3 {
+	font-size: 1.3em;
+	text-align: center;
+	padding: 20px;
 }
 
 #pic1 {
-    float: left;
-    height: 350px;
-    width: 45%;
-    margin: 40px 0px 0px 40px;
-    padding-left: 20px;
-    
+	float: left;
+	height: 350px;
+	width: 45%;
+	margin: 40px 0px 0px 40px;
+	padding-left: 20px;
 }
 
 #pic2 {
-    float: right;
-    height: 740px;
-    width: 45%;
-    margin: 40px 40px 60px 0px;
-    padding-right: 20px;
+	float: right;
+	height: 740px;
+	width: 45%;
+	margin: 40px 40px 60px 0px;
+	padding-right: 20px;
 }
 
 #pic3 {
-    float: left;
-    height: 350px;
-    width: 45%;
-    margin: 40px 0px 60px 40px;
-    padding-left: 20px;
+	float: left;
+	height: 350px;
+	width: 45%;
+	margin: 40px 0px 60px 40px;
+	padding-left: 20px;
 }
+
 
 /* Contact info */
 
-iframe{
-    margin:20px 0px 40px 120px;
-    border: rgb(176, 179, 11) 1px solid;
-    padding: 20px;
-    width: 80%;
-    height: 200px;
-    
+iframe {
+	margin: 20px 0px 40px 120px;
+	border: rgb(176, 179, 11) 1px solid;
+	padding: 20px;
+	width: 80%;
+	height: 200px;
 }
 
-
-
-footer{
-    margin-top: auto;
-    background-color:rgb(41, 43, 43);
-    height: 250px;
-    padding-top: 50px;
-    padding-left: 15%;
-    position: relative;
-    
+footer {
+	margin-top: auto;
+	background-color: rgb(41, 43, 43);
+	height: 250px;
+	padding-top: 50px;
+	padding-left: 15%;
+	position: relative;
 }
 
-footer h3{
-    text-decoration: underline;
+footer h3 {
+	text-decoration: underline;
 }
 
-
-
-#time{
-    color: rgb(176, 179, 11);
-    width: 33.3%;
-    float: left;
-    width: 30%;
-    line-height: 40px;
-    list-style-type: none;    
-    margin: auto;
-    padding-left: 3em;
+#time {
+	color: rgb(176, 179, 11);
+	width: 33.3%;
+	float: left;
+	width: 30%;
+	line-height: 40px;
+	list-style-type: none;
+	margin: auto;
+	padding-left: 3em;
 }
 
-#contact{
-    color: rgb(176, 179, 11);
-    width: 33.3%;
-    width: 30%;
-    float: left;
-    list-style-type: none;
-    line-height: 40px;
+#contact {
+	color: rgb(176, 179, 11);
+	width: 33.3%;
+	width: 30%;
+	float: left;
+	list-style-type: none;
+	line-height: 40px;
 }
 
-#socials{
-    color: rgb(176, 179, 11);
-    width: 30%;
-    float: right;
-    list-style-type: none;
-    line-height: 40px;
-    float: right;
+#socials {
+	color: rgb(176, 179, 11);
+	width: 30%;
+	float: right;
+	list-style-type: none;
+	line-height: 40px;
+	float: right;
 }
 
-.fab{
-    color: rgb(176, 179, 11);
-
+.fab {
+	color: rgb(176, 179, 11);
 }
 
-#copyright{
-    background-color: rgb(71, 71, 70); 
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    text-align: center;
+#copyright {
+	background-color: rgb(71, 71, 70);
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	text-align: center;
 }
+
 
 /*about main image*/
 
-#about { 
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 150px;
-    width: 100%;
-    height: 600px;
+#about {
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 150px;
+	width: 100%;
+	height: 600px;
 }
 
+
 /* Our story section*/
+
 .headings {
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 40px;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 40px;
 }
 
 .statement {
-    padding: 20px 40px;
-    text-align: justify;
-    font-size: 1.3em;
-
+	padding: 20px 40px;
+	text-align: justify;
+	font-size: 1.3em;
 }
