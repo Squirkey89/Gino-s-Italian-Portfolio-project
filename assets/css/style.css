@@ -291,3 +291,22 @@ footer h3 {
     float: right;
 }
 
+/* Style form section on about.html */
+
+.form {
+    width: 40%;
+    height: 700px;
+    background: url('../images/pexels-ann-h-6935078.jpg') no-repeat center center;
+    background-size: cover;   
+    border:white 1px solid;
+    border-radius: 5px 5px;
+    padding: 50px;
+    margin: 80px auto;     
+}
+
+.form h3{
+    padding: 40px;
+}
+
+
+
