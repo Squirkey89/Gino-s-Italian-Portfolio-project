@@ -307,6 +307,15 @@ footer h3 {
 .form h3{
     padding: 40px;
 }
+
+textarea {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0 20px 130px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
 .text {
     width: 60%;
     padding: 12px 20px;
@@ -315,4 +324,12 @@ footer h3 {
     border-radius: 8px;
     box-sizing: border-box;
     color: black;
+}
+textarea {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0 20px 130px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
 }
