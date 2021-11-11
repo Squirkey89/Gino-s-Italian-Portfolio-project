@@ -279,6 +279,8 @@ footer h3 {
 	font-size: 1.3em;
 }
 
+/* float mission and feedback paragraph left and right */
+
 #para-left {
     width: 50%;
     float: left;
@@ -288,3 +290,4 @@ footer h3 {
     width: 50%;
     float: right;
 }
+
