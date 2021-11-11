@@ -278,3 +278,13 @@ footer h3 {
 	text-align: justify;
 	font-size: 1.3em;
 }
+
+#para-left {
+    width: 50%;
+    float: left;
+}
+
+#para-right {
+    width: 50%;
+    float: right;
+}
