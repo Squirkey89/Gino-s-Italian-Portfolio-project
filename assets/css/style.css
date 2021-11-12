@@ -351,5 +351,36 @@ label {
     border: 1px solid white;
     border-radius:4px 4px;
 }
+#space{
+	margin: 180px 150px 0px;
+	background-color: rgb(119, 119, 111);
 
+}
+
+#our-menus {
+	text-align: center;	
+	background-color: black;
+	padding: 10px;
+}
+
+#lunch {
+	width: 40%;
+	text-align: justify;
+	font-size: 1.3em;
+	line-height: 300%;
+	margin:50px 150px;
+	padding-left: 50px;
+	float: left;
+	text-shadow: 1px 1px black ;
+}
+
+#lunch-prices{
+	width: 30%;
+	text-align: justify;
+	font-size: 1.3em;
+	line-height: 300%;
+	float: right;
+	margin: 50px 0;
+	text-shadow: 1px 1px black ;
+}
 
