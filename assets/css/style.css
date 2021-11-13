@@ -354,11 +354,20 @@ label {
 
 /* Add style to the menus on menu.html page */
  
-.space{
-	margin: 180px 150px 0px 150px;
+#space{
+	margin: 200px 150px 0px 150px;
 	background-color: rgba(128, 128, 123, 0.781);
 	border-radius: 5px;
-
+}
+.space-one{
+	margin: 50px 150px 0px 150px;
+	background-color: rgba(128, 128, 123, 0.781);
+	border-radius: 5px;
+}
+#space-two{
+	margin: 50px 150px 50px 150px;
+	background-color: rgba(128, 128, 123, 0.781);
+	border-radius: 5px;
 }
 
 .our-menus {
