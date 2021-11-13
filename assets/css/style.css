@@ -354,7 +354,7 @@ label {
 
 /* Add style to the menus on menu.html page */
  
-#space{
+.space{
 	margin: 180px 150px 0px 150px;
 	background-color: rgba(128, 128, 123, 0.781);
 	border-radius: 5px;
@@ -372,7 +372,7 @@ label {
 	font-size: 1.6em;
 }
 
-.lunch {
+.dishes {
 	width: 40%;
 	text-align: justify;
 	font-size: 1.3em;
@@ -383,7 +383,7 @@ label {
 	text-shadow: 2px 2px black;
 }
 
-.lunch-prices{
+.prices{
 	width: 30%;
 	text-align: justify;
 	font-size: 1.3em;
