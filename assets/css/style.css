@@ -402,3 +402,35 @@ label {
 	text-shadow: 2px 2px black ;
 }
 
+/* media queries */
+@media screen and (max-width: 1529px) {
+	.prices{
+		width: 10%;
+		margin-right: 50px;
+	}
+	.dishes{
+		width: 40%;
+		padding: 0;
+		margin-left: 100px;
+	}
+	
+}
+
+@media screen and (max-width: 1456px) {
+	.dishes{
+		text-align: left;
+		width: 50%;
+	}	
+	.prices{
+		width: 10%;
+	}
+}
+
+@media screen and (max-width: 1231px) {
+	.prices{
+		font-size: 1.1em;
+	}
+		.dishes{
+		font-size: 1.1em;	
+}
+}
