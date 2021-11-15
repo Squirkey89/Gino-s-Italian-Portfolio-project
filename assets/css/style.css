@@ -381,24 +381,22 @@ label {
 	font-size: 1.6em;
 }
 
-.dishes {
-	width: 40%;
+.left-text {
+	width: 35%;
 	text-align: justify;
 	font-size: 1.3em;
-	line-height: 300%;
-	margin:50px 155px;
+	margin:130px 0 130px 50px;
 	padding-left: 50px;
 	float: left;
 	text-shadow: 2px 2px black;
 }
 
-.prices{
+.right-text{
 	width: 30%;
 	text-align: justify;
 	font-size: 1.3em;
-	line-height: 300%;
 	float: right;
-	margin: 50px 0;
+	margin: 130px 50px 130px 0;
 	text-shadow: 2px 2px black ;
 }
 
@@ -429,8 +427,21 @@ label {
 @media screen and (max-width: 1231px) {
 	.prices{
 		font-size: 1.1em;
+		background-color: aliceblue;
 	}
 		.dishes{
-		font-size: 1.1em;	
+		font-size: 1.1em;
+		background-color: #ff0000;
 }
+}
+
+@media screen and (max-width: 1093px) {
+	.prices{
+	}
+		.dishes{
+		font-size: 1.1em;
+		background-color: #ff0000;
+		width: 30%;
+}
+	
 }
