@@ -279,99 +279,102 @@ footer h3 {
 	font-size: 1.3em;
 }
 
+
 /* float mission and feedback paragraph left and right */
 
 #para-left {
-    width: 50%;
-    float: left;
+	width: 50%;
+	float: left;
 }
 
 #para-right {
-    width: 50%;
-    float: right;
+	width: 50%;
+	float: right;
 }
+
 
 /* Style form section on about.html */
 
 .form {
-    width: 40%;
-    height: 700px;
-    background: url('../images/pexels-ann-h-6935078.jpg') no-repeat center center;
-    background-size: cover;   
-    border:white 1px solid;
-    border-radius: 5px 5px;
-    padding: 50px;
-    margin: 80px auto;     
+	width: 40%;
+	height: 700px;
+	background: url('../images/pexels-ann-h-6935078.jpg') no-repeat center center;
+	background-size: cover;
+	border: white 1px solid;
+	border-radius: 5px 5px;
+	padding: 50px;
+	margin: 80px auto;
 }
 
-.form h3{
-    padding: 40px;
+.form h3 {
+	padding: 40px;
 	margin-bottom: 10px;
 }
 
 textarea {
-    width: 60%;
-    padding: 12px 20px;
-    margin: 8px 0 20px 130px;
-    border: 1px solid black;
-    border-radius: 8px;
-    box-sizing: border-box;
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0 20px 130px;
+	border: 1px solid black;
+	border-radius: 8px;
+	box-sizing: border-box;
 }
+
 .text {
-    width: 60%;
-    padding: 12px 20px;
-    margin: 8px 0 20px 130px;
-    border: 1px solid black;
-    border-radius: 8px;
-    box-sizing: border-box;
-    color: black;
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0 20px 130px;
+	border: 1px solid black;
+	border-radius: 8px;
+	box-sizing: border-box;
+	color: black;
 }
-
-
 
 label {
-    margin: 8px 0 20px 130px;
-    color: white;
-    font-size: 1.2em;
-
+	margin: 8px 0 20px 130px;
+	color: white;
+	font-size: 1.2em;
 }
 
 #button {
-    width: 40%;
-    background-color: #ff0000;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0 20px 190px;
-    border: 1px solid white;
-    border-radius:4px 4px;
+	width: 40%;
+	background-color: #ff0000;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0 20px 190px;
+	border: 1px solid white;
+	border-radius: 4px 4px;
 }
 
+
 /* Add style to the menus on menu.html page */
- 
-#space{
+
+#space {
 	margin: 200px 150px 0px 150px;
 	background-color: rgba(128, 128, 123, 0.781);
 	border-radius: 5px;
 }
-.space-one{
+
+.space-one {
 	margin: 50px 150px 0px 150px;
 	background-color: rgba(128, 128, 123, 0.781);
 	border-radius: 5px;
 }
-#space-two{
+
+#space-two {
 	margin: 50px 150px 50px 150px;
 	background-color: rgba(128, 128, 123, 0.781);
 	border-radius: 5px;
 }
 
 .our-menus {
-	text-align: center;	
+	text-align: center;
 	background-color: black;
 	padding: 15px;
 	border-radius: 5px;
 }
 
-.our-menus h3{
+.our-menus h3 {
 	font-size: 1.6em;
 }
 
@@ -379,34 +382,36 @@ label {
 	width: 35%;
 	text-align: justify;
 	font-size: 1.3em;
-	margin:100px 0 100px 50px;
+	margin: 100px 0 100px 50px;
 	padding-left: 50px;
 	float: left;
 	text-shadow: 2px 2px black;
 	letter-spacing: normal;
 }
 
-.right-text{
+.right-text {
 	width: 30%;
 	text-align: justify;
 	font-size: 1.3em;
 	float: right;
 	margin: 100px 50px 100px 0;
-	text-shadow: 2px 2px black ;
+	text-shadow: 2px 2px black;
 	letter-spacing: normal;
 }
 
+
 /* media queries */
-@media screen and (max-width: 1169px){
-	.left-text{
+
+@media screen and (max-width: 1169px) 
+{
+.left-text {
 		text-align: center;
 		float: left;
 		margin: auto;
 		width: 100%;
 		font-size: 1.1em;
-		padding: 40px 0 20px 0;	
+		padding: 40px 0 20px 0;
 	}
-	
 	.right-text {
 		text-align: center;
 		margin: auto;
@@ -414,145 +419,147 @@ label {
 		float: left;
 		clear: both;
 		font-size: 1.1em;
-		padding: 0 0 40px 0;	
-	
+		padding: 0 0 40px 0;
 	}
-
-	.form {
-		width: 60%;
-		
-
-}
-
-@media screen and (max-width: 993px) {
-
-	footer{
-		height: 600px;
+	#pic1{
+	width: 40%;
 	}
-
-	#contact{
-		float: left;
-		text-align: center;
-		width: 85%;
-	}
-	#time{
-		float: left;
-		clear: both;
-		text-align: center;
-		padding: 0;
-		width: 85%;
-		
-	}
-	#socials{
-		float: left;
-		clear: both;
-		text-align: center;
-		width: 85%;
+	#pic2{
+	width: 40%;
 
 	}
+	#pic3{
+	width: 40%;
 
-	#para-left{
-		float: left;
-		width: 100%;
-
-	}
-	#para-right{
-		float: left;
-		clear: auto;
-		padding: 0;
-		width: 100%;
 	}
 	.form {
 		width: 60%;
 	}
-		.form h3{
+	@media screen and (max-width: 993px) {
+		footer {
+			height: 600px;
+		}
+		#contact {
+			float: left;
+			text-align: center;
+			width: 85%;
+		}
+		#time {
+			float: left;
+			clear: both;
+			text-align: center;
+			padding: 0;
+			width: 85%;
+		}
+		#socials {
+			float: left;
+			clear: both;
+			text-align: center;
+			width: 85%;
+		}
+		#para-left {
+			float: left;
+			width: 100%;
+		}
+		#para-right {
+			float: left;
+			clear: both;
+			padding: 0;
+			width: 100%;
+		}
+		.form {
+			width: 60%;
+		}
+		.form h3 {
 			width: 80%;
 			margin: 0 0 10px 50px;
 			padding: 0;
-	
 		}
-		
 		textarea {
 			width: 80%;
 			margin: 8px 0 20px 50px;
-	
 		}
 		.text {
 			width: 80%;
 			margin: auto;
 			margin: 8px 0 20px 50px;
-
-	
 		}
-		
 		label {
 			width: 80%;
 			margin: 8px 0 20px 50px;
 			padding: 0;
 		}
-		
 		#button {
 			width: 80%;
 			margin: auto;
 			margin: 8px 0 20px 50px;
-
 		}
-		
-}
-
-@media screen and (max-width: 597px){
-
-#space{
-	margin: auto;
-	margin-top: 200px;
-	width: 100%;
-}
-#space-two{
-	margin: auto;
-	width: 100%;
 	}
-
-	.space-one {
-	width: 100%;	
-	margin: auto;	
+	@media screen and (max-width: 597px) {
+		#space {
+			margin: auto;
+			margin-top: 200px;
+			width: 100%;
+		}
+		#space-two {
+			margin: auto;
+			width: 100%;
+		}
+		.space-one {
+			width: 100%;
+			margin: auto;
+		}
+		.form {
+			width: 70%;
+			height: 600px;
+		}
+		.form h3 {
+			width: 100%;
+			margin: auto;
+			padding: 0;
+		}
+		textarea {
+			width: 100%;
+			margin: 8px auto 10px auto;
+			padding: 12px 20px;
+		}
+		.text {
+			width: 100%;
+			margin: 8px auto 20px auto;
+			padding: 12px 20px;
+		}
+		label {
+			width: 100%;
+			margin: auto;
+			padding: 0;
+		}
+		#button {
+			width: 100%;
+			margin: auto;
+			padding: 14px 20px;
+			margin: 2px auto 10px auto;
+		}
+		#pic1 {
+			width: 100%;
+			padding:0;
+			margin: 0;
+		}
+		#pic2 {
+			float: left;
+			clear: both;
+			width: 100%;
+			padding: 0;
+			margin: 0;
+		}
+		#pic3{
+			width: 100%;
+			padding: 0;
+			margin: 0;
+		}
+		iframe{
+			margin: 0;
+			width:
+			90%;
+			border: none;
+		}
 	}
-
-	.form{
-		width: 70%;
-		height: 600px;
-	}
-
-	.form h3{
-		width: 100%;
-		margin: auto;
-		padding: 0;
-
-	}
-	
-	textarea {
-		width: 100%;
-		margin:8px auto 10px auto;
-		padding: 12px 20px;
-
-	}
-	.text {
-		width: 100%;
-		margin: 8px auto 20px auto;
-		padding: 12px 20px;
-
-
-	}
-	label {
-		width: 100%;
-		margin: auto;
-		padding: 0;
-	}
-	
-	#button {
-		width: 100%;
-		margin: auto;
-		padding: 14px 20px;
-		margin: 2px auto 10px auto;
-
-	}
-}
