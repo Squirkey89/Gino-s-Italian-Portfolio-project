@@ -451,12 +451,19 @@ label {
 }
 
 @media screen and (max-width: 522px){
-	#space, #space-two{
-		margin: auto;
+
+#space{
+	margin: auto;
+	margin-top: 200px;
 	width: 100%;
 }
+#space-two{
+	margin: auto;
+	width: 100%;
+	}
+
 	.space-one {
-		width: 100%;	
+	width: 100%;	
 	margin: auto;	
 	}
 }
