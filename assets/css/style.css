@@ -432,21 +432,31 @@ label {
 
 }
 
-@media screen and (max-width: 963px) {
+@media screen and (max-width: 993px) {
 
-	.contact{
-		float: left;
-		width: 100%;
+	footer{
+		height: 600px;
 	}
-	.time{
+
+	#contact{
+		float: left;
+		text-align: center;
+		width: 85%;
+	}
+	#time{
 		float: left;
 		clear: both;
-		width: 100%;
+		text-align: center;
+		padding: 0;
+		width: 85%;
+		
 	}
-	.socials{
+	#socials{
 		float: left;
 		clear: both;
-		width: 100%;
+		text-align: center;
+		width: 85%;
+
 	}
 }
 
