@@ -389,6 +389,7 @@ label {
 	padding-left: 50px;
 	float: left;
 	text-shadow: 2px 2px black;
+	letter-spacing: normal;
 }
 
 .right-text{
@@ -398,46 +399,64 @@ label {
 	float: right;
 	margin: 100px 50px 100px 0;
 	text-shadow: 2px 2px black ;
+	letter-spacing: normal;
 }
 
 /* media queries */
-@media screen and (max-width: 1243px) {
-	.right-text{
-	width: 100%;
-	float: left;
-	clear: both;
-	margin: auto;
-	padding: 20px 0 50px 250px;
+@media screen and (max-width: 1169px){
+#space, #space-two{
+	}
+.space-one {
 
 }
+
 	.left-text{
+		text-align: center;
 		float: left;
-		width: 100%;
 		margin: auto;
-		padding:50px 0 0 250px;
+		width: 100%;
+		font-size: 1.1em;
+		padding: 40px 0 20px 0;	
 	}
+	
+	.right-text {
+		text-align: center;
+		margin: auto;
+		width: 100%;
+		float: left;
+		clear: both;
+		font-size: 1.1em;
+		padding: 0 0 40px 0;	
+	
+	}
+
 }
-@media screen and (max-width: 1068px) {
-	.left-text{
-	padding-left: 150px;}
-	.right-text{
-		padding-left: 150px;}
-	}
 
 @media screen and (max-width: 963px) {
 
-	.left-text{
-		padding-left: 50px;}
-
-		.right-text{
-			padding-left: 50px;}
+	.contact{
+		float: left;
+		width: 100%;
+	}
+	.time{
+		float: left;
+		clear: both;
+		width: 100%;
+	}
+	.socials{
+		float: left;
+		clear: both;
+		width: 100%;
+	}
 }
 
-@media screen and (max-width: 720px) {
-
-	.left-text{
-		padding-left: 0;}
-
-		.right-text{
-			padding-left: 0;}
+@media screen and (max-width: 522px){
+	#space, #space-two{
+		margin: auto;
+	width: 100%;
+}
+	.space-one {
+		width: 100%;	
+	margin: auto;	
+	}
 }
