@@ -326,14 +326,8 @@ textarea {
     box-sizing: border-box;
     color: black;
 }
-textarea {
-    width: 60%;
-    padding: 12px 20px;
-    margin: 8px 0 20px 130px;
-    border: 1px solid black;
-    border-radius: 8px;
-    box-sizing: border-box;
-}
+
+
 
 label {
     margin: 8px 0 20px 130px;
@@ -404,12 +398,6 @@ label {
 
 /* media queries */
 @media screen and (max-width: 1169px){
-#space, #space-two{
-	}
-.space-one {
-
-}
-
 	.left-text{
 		text-align: center;
 		float: left;
@@ -429,6 +417,10 @@ label {
 		padding: 0 0 40px 0;	
 	
 	}
+
+	.form {
+		width: 60%;
+		
 
 }
 
@@ -458,9 +450,57 @@ label {
 		width: 85%;
 
 	}
+
+	#para-left{
+		float: left;
+		width: 100%;
+
+	}
+	#para-right{
+		float: left;
+		clear: auto;
+		padding: 0;
+		width: 100%;
+	}
+	.form {
+		width: 60%;
+	}
+		.form h3{
+			width: 80%;
+			margin: 0 0 10px 50px;
+			padding: 0;
+	
+		}
+		
+		textarea {
+			width: 80%;
+			margin: 8px 0 20px 50px;
+	
+		}
+		.text {
+			width: 80%;
+			margin: auto;
+			margin: 8px 0 20px 50px;
+
+	
+		}
+		
+		label {
+			width: 80%;
+			margin: 8px 0 20px 50px;
+			padding: 0;
+		}
+		
+		#button {
+			width: 80%;
+			margin: auto;
+			margin: 8px 0 20px 50px;
+
+		}
+		
 }
 
-@media screen and (max-width: 522px){
+@media screen and (max-width: 597px){
 
 #space{
 	margin: auto;
@@ -475,5 +515,44 @@ label {
 	.space-one {
 	width: 100%;	
 	margin: auto;	
+	}
+
+	.form{
+		width: 70%;
+		height: 600px;
+	}
+
+	.form h3{
+		width: 100%;
+		margin: auto;
+		padding: 0;
+
+	}
+	
+	textarea {
+		width: 100%;
+		margin:8px auto 10px auto;
+		padding: 12px 20px;
+
+	}
+	.text {
+		width: 100%;
+		margin: 8px auto 20px auto;
+		padding: 12px 20px;
+
+
+	}
+	label {
+		width: 100%;
+		margin: auto;
+		padding: 0;
+	}
+	
+	#button {
+		width: 100%;
+		margin: auto;
+		padding: 14px 20px;
+		margin: 2px auto 10px auto;
+
 	}
 }
