@@ -402,6 +402,7 @@ label {
 
 /* media queries */
 
+/* laptops large screens*/
 @media screen and (max-width: 1200px) 
 {
 .left-text {
@@ -439,9 +440,10 @@ label {
 	iframe{
 		margin-left: 80px;
 	}
+	/* Small laptops and tablets medium size screens */
 	@media screen and (max-width: 993px) {
 		footer {
-			height: 600px;
+			height: 650px;
 		}
 		#contact {
 			float: left;
@@ -460,6 +462,7 @@ label {
 			clear: both;
 			text-align: center;
 			width: 85%;
+			bottom: 40px;
 		}
 		#para-left {
 			float: left;
@@ -503,10 +506,17 @@ label {
 			width: 90%;
 		}
 	}
+
+		/* Mobile devices for smaller screens */
 	@media screen and (max-width: 600px) {
-		#body{
+		#logo1, #logo2 {
+			font-size: 1.8em;
+		}
+		#intro, #takeaway{
 			font-size: 1em;
-			text-align: justify;
+		}
+		#takeaway{
+			padding-bottom: 80px;
 		}
 		
 		#space {
@@ -533,7 +543,7 @@ label {
 		.form h3 {
 			width: 100%;
 			margin: auto;
-			padding: 0;
+			padding: 0 0 10px 0;
 		}
 		textarea {
 			width: 100%;
@@ -574,10 +584,9 @@ label {
 			margin: 0;
 		}
 		iframe{
-			width:
-			100%;
-			border: none;
-			padding: 30px 0;
+			width:100%;
+			padding: 50px 0 50px 0;
 			margin: 0;
+			border: none;
 		}
 	}
