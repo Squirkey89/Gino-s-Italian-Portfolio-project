@@ -402,7 +402,7 @@ label {
 
 /* media queries */
 
-@media screen and (max-width: 1169px) 
+@media screen and (max-width: 1200px) 
 {
 .left-text {
 		text-align: center;
@@ -434,6 +434,10 @@ label {
 	}
 	.form {
 		width: 60%;
+	}
+
+	iframe{
+		margin-left: 80px;
 	}
 	@media screen and (max-width: 993px) {
 		footer {
@@ -494,10 +498,15 @@ label {
 			margin: auto;
 			margin: 8px 0 20px 50px;
 		}
+		iframe{
+			margin: 0 10px 20px 20px;
+			width: 90%;
+		}
 	}
-	@media screen and (max-width: 597px) {
+	@media screen and (max-width: 600px) {
 		#body{
 			font-size: 1em;
+			text-align: justify;
 		}
 		
 		#space {
@@ -565,9 +574,10 @@ label {
 			margin: 0;
 		}
 		iframe{
-			margin: 0;
 			width:
-			90%;
+			100%;
 			border: none;
+			padding: 30px 0;
+			margin: 0;
 		}
 	}
