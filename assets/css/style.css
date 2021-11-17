@@ -221,6 +221,10 @@ footer h3 {
 	margin: auto;
 	padding-left: 3em;
 }
+#time h3{
+	list-style-type: none;
+	color:rgb(176, 179, 11);
+}
 
 #contact {
 	color: rgb(176, 179, 11);
@@ -402,7 +406,7 @@ label {
 
 /* media queries */
 
-/* laptops large screens*/
+/* laptops large*/
 @media screen and (max-width: 1200px) 
 {
 .left-text {
@@ -505,23 +509,25 @@ label {
 			margin: 0 10px 20px 20px;
 			width: 90%;
 		}
+		
 	}
+	
+		
 
 		/* Mobile devices for smaller screens */
 	@media screen and (max-width: 600px) {
 		#logo1, #logo2 {
 			font-size: 1.8em;
 		}
-		#intro, #takeaway{
-			font-size: 1em;
-		}
+		
+	}
 		#takeaway{
-			padding-bottom: 80px;
+			padding-bottom: 40px;
 		}
 		
 		#space {
 			margin: auto;
-			margin-top: 200px;
+			margin-top: 180px;
 			width: 100%;
 		}
 		#space-two {
