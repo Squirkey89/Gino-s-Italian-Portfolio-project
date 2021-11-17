@@ -530,14 +530,20 @@ label {
 			padding: 0 10px 30px 10px;
 			margin: 0;
 		}
-		#statment{
+		#story p{
 			text-align: center;
+			padding: 0 20px;
+			margin: 0;
 		}
-		#para-left{
+		#para-left p{
 			text-align: center;
+			padding: 0 20px;
+			margin: 0;
 		}
-		#para-right{
+		#para-right p{
 			text-align: center;
+			padding: 0 20px; 
+			margin: 0;
 		}
 		
 		#space {
