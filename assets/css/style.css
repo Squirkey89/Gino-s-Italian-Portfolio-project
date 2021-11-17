@@ -520,9 +520,24 @@ label {
 			font-size: 1.8em;
 		}
 		
-	}
+		#intro{
+			text-align: center;
+			padding: 0 10px 30px 10px;
+			margin: 0;
+		}
 		#takeaway{
-			padding-bottom: 40px;
+			text-align: center;
+			padding: 0 10px 30px 10px;
+			margin: 0;
+		}
+		#statment{
+			text-align: center;
+		}
+		#para-left{
+			text-align: center;
+		}
+		#para-right{
+			text-align: center;
 		}
 		
 		#space {
