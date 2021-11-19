@@ -413,14 +413,23 @@ label {
 		height: 1200px;
 
 	}
-	.statement,.headings,.left-text,.right-text, #intro, #takeaway, #logo1,#logo2{
-		font-size: 250%;
+	.statement,.headings, #intro, #takeaway, #logo1,#logo2{
+		font-size: 200%;
+	}
+	.left-text,.right-text{
+		font-size: 200%;
 	}
 	footer,#hours{
-		font-size: 150%;
+		font-size: 125%;
 	}
 	nav{
-		font-size: 175%;
+		font-size: 150%;
+	}
+	#takeaway > h3{
+		font-size: 35px;
+	}
+	#intro > h3{
+		font-size: 35px;
 	}
 	#pic2{
 		width: 40%;
