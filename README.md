@@ -1,108 +1,30 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Ginos Italian Restaurant
 
-Welcome Squirkey89,
+This is an Italian restaurant that is geared towards people who love traditional Italian food, as well as to those who just enjoy food. The objective of this website is to showcase the traditional Italian food that thhe restaurant produces. As well as marketing the food the websites second objective is to communicate to the general public that the food is available for delivery. There are three webpages on the website and over these the user will be able find out about the food that is provided and the pricing. The resaurants contact details, how to order takaway, the restaurants opening hours and also learn a bit about the restaurant owners and how they got to where they are today. The website is targeted those who enjoy food and social getherings anyone who wants to spend a night out with their family or friends. 
+<img src="blob:chrome-untrusted://media-app/f3b792de-3f71-4eb3-9a3d-12a97229b8e9">![image](https://user-images.githubusercontent.com/91072896/142471353-316ca7b8-dccb-4e0d-a3ca-8ec6457ddbeb.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Navigation bar 
+    
+![Screenshot 2021-11-18 21 20 16 (2)](https://user-images.githubusercontent.com/91072896/142500163-9e2641f5-e9ee-4319-982f-7adc6708f6f8.png)
 
-## Gitpod Reminders
+The navigation bar is located in the center of the screen and is just below the logo at the top of the page. There are three different tabs that the users can chose from Home, Menu and About. If the user also clicks on the logos above the navbar this will bring them back to the Home page. The navigation bar is fixed on the website. So the nav bar will follow the user down the page as they scroll down. This makes it easier for the customer to navigate through the website without having to scroll back up to the top of the page everytime.
+    
+Opening hours    
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![image](https://user-images.githubusercontent.com/91072896/142540035-bb951972-3bf1-4d93-adfd-cd107b48f29c.png)
 
-`python3 -m http.server`
+Just as the user scrolls down the website the operating hours are available this is centered in the middle of the screen so any users of the website will be able to find this information easily.
 
-A blue button should appear to click: _Make Public_,
+Iframe
 
-Another blue button should appear to click: _Open Browser_.
+![Screenshot 2021-11-19 01 36 13](https://user-images.githubusercontent.com/91072896/142543062-76173656-8a87-4668-89a5-41dba32a01e3.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Just at the bottom of the page above the footer an iframe is located this shows the address of the restaurant. This feature can be clicked on and once this brings the user to google maps where they can find directions to the premises.
 
-A blue button should appear to click: _Make Public_,
+Footer
 
-Another blue button should appear to click: _Open Browser_.
+![image](https://user-images.githubusercontent.com/91072896/142547261-da3a94d9-facd-485f-a272-23b773f55e8a.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+At the footer of the page the restaurants contact information is provided. The restaurants phone number, email and address are available. The is important information for the customer in case they may want to contact us to make an order. Also provided at the bottom of the page are our social media links Facebook Instagram and Twitter. The user can follow and interact with the restaurant through those. There are also menu times shown at the footer. This informs the customer at what time do we serve lunch, dinner and there is also an early bird menu which offer discounted prices. Above the menu times there is a menu link which is uselful and will bring the user to the menu page. 
