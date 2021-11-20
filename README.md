@@ -1,9 +1,11 @@
 **Ginos Italian Restaurant**
+------
 
 This is an Italian restaurant that is geared towards people who love traditional Italian food, as well as to those who just enjoy food. The objective of this website is to showcase the traditional Italian food that thhe restaurant produces. As well as marketing the food the websites second objective is to communicate to the general public that the food is available for delivery. There are three webpages on the website and over these the user will be able find out about the food that is provided and the pricing. The resaurants contact details, how to order takaway, the restaurants opening hours and also learn a bit about the restaurant owners and how they got to where they are today. The website is targeted those who enjoy food and social getherings anyone who wants to spend a night out with their family or friends. 
 <img src="blob:chrome-untrusted://media-app/f3b792de-3f71-4eb3-9a3d-12a97229b8e9">![image](https://user-images.githubusercontent.com/91072896/142471353-316ca7b8-dccb-4e0d-a3ca-8ec6457ddbeb.png)
 
 **Features**
+------
 
 **Navigation bar** 
  
@@ -32,25 +34,31 @@ At the footer of the page the restaurants contact information is provided. The r
 **Form**
 
 The form can be found on the about page. The form needs an email address and name both to be added or the form wont submit. There is a textarea below the name and email text for users to leave feedback. The fgeedback form is useful to the user because it allows them to communicate there experiences directly to the restaurant.
-
-![Screenshot 2021-11-19 16 33 54 (1) (1)](https://user-images.githubusercontent.com/91072896/142680739-b1c10eb0-2e6f-4730-86c2-4347ef9041fb.png)
-
-
-**Testing**
- * I tested my website on Google Chrome, Safari and Mozilla Firefox and all the websites elements worked on those search engines.
- 
- * I tested the form and this works on all the above engines mentioned and cannot be submitted without an email address or name.
- 
- * I tested the website navigation and internal links and iframe and confirmed that these worked.
- 
- * I tested the site for responsiveness using devtools on mobile devices, tablets, laptops and large monitors and confirm that the sites works well on all platforms.
- 
- * I confirmed that the entire website was visible and all the elements were easy to detect and use. 
- 
- * I proof read all the content to ensure it was correct and free of spelling errors.
+![Screenshot 2021-11-20 14 41 18](https://user-images.githubusercontent.com/91072896/142730445-c9357709-a96e-4123-b8e4-d2bae78eed27.png)
 
 
-**Validator Testing**
+Testing
+------
+
+* Search Engines
+  * I tested my website on Google Chrome, Safari and Mozilla Firefox and all pages, links on those pages, and footer icon links performed well on each of those search engines. I tested the website navigation and internal links and iframe and confirmed that these also worked on those search engines.
+
+* Amiresponsive
+  * To test my website on all iphone devices I used http://ami.responsivedesign.is/. I added a screenshot of how these look on the top of the Read.me 
+  * I tested the form and this works on all the above engines mentioned and cannot be submitted without an email address or name.
+ 
+ * Mobile Phones
+   * I tested the site for responsiveness using devtools I used all the mobile devices on this tool. I also tested it using my mobile phone a Samsung Galaxy A50 and an Iphone 12 mobile devices everything looked and worked well on these device.
+   * I tested the website on an ipad and used the devtool resposiveness too also.
+ * Desktop/Laptop
+   * I tested the website responsiveness using an Apple Macbook an Imac and an ASUS Chromebook Flip C434, as well responsiveness devtools for laptop screens. All elements performed well and looked good.
+ * Feedback Form 
+   * Atempting to submit the form with out filling out the name and email text boxes or feedback textarea will result in a Please fill out this field message.
+   * Attempting to submit the email without entering an email address will result in a message requesting that an email address is entered.
+   * Once the submit button is selected the page will reload. The user remains on the same page.
+
+Validator Testing
+------
 * HTML
   * I tested all three webpages on the W3C HTML validation service and all three passed with no errors detected. 
 
@@ -69,17 +77,20 @@ The form can be found on the about page. The form needs an email address and nam
     * Menu
     ![Screenshot 2021-11-19 23 48 32](https://user-images.githubusercontent.com/91072896/142704929-3106919f-730a-47cf-bf04-cb5e13228e9e.png)
     * About
-    ![image](https://user-images.githubusercontent.com/91072896/142705083-7a898b25-6417-45f8-80b9-c242e45d80ef.png)
+    ![Screenshot 2021-11-20 14 39 11](https://user-images.githubusercontent.com/91072896/142730426-2125f26d-2c55-4fb2-812d-5b2f1f9c7cfc.png) 
 
-**Bugs**
+Bugs
+------
 
 When I deployed my website I failed to remember that the header being fixed and the footeer being position relative would be an issue. I found this out when making my website reponsive for mobile devices. I solved the problem by adding a z-index to the header and footer and making the number on the header index higher then the footer so it would over lap as I had intended it too.
   
-**Unfixed Bugs**
+Unfixed Bugs
+------
   
   There are no unfixed bugs
 
-**Deployment**
+Deployment
+------
 
 These are the steps used to deploy the website. The site was deployed using GitHub.
 * Create the repository for the website you wish to publish.
@@ -89,10 +100,14 @@ These are the steps used to deploy the website. The site was deployed using GitH
 * Then at the source there is a drop down icon click on this and select main branch.
 * The page will refresh with a link to the website. Once the link is selected then website is deployed.
 
-**Credits**
+Credits
+------
 
 **Content**
   * The code used to create the feed back form was taken from https://www.w3schools.com/ 
+  * Google Fonts was used for font styles; https://fonts.google.com/
+  * Used Am I Responsive web site for checking responsiveness on all Apple devices screen sizes; http://ami.responsivedesign.is/
+  * I used maps.ie to ad a pin to my iframe of the business location https://www.maps.ie/create-google-map/
 
 **Media**
   * All images and background images used in the website were taken from https://www.pexels.com/
