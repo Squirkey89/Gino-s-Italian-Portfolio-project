@@ -302,10 +302,8 @@ footer h3 {
 /* Style form section on about.html */
 
 .form {
-	width: 40%;
-	height: 700px;
-	background: url('../images/pexels-ann-h-6935078.jpg') no-repeat center center;
-	background-size: cover;
+	width: 30%;
+	height: 500px;
 	border: white 1px solid;
 	border-radius: 5px 5px;
 	padding: 50px;
@@ -313,23 +311,23 @@ footer h3 {
 }
 
 .form h3 {
-	padding: 40px;
+	padding: 10px;
 	margin-bottom: 10px;
 }
 
 textarea {
-	width: 60%;
-	padding: 12px 20px;
-	margin: 8px 0 20px 130px;
+	width: 100%;
+	padding: 10px;
+	margin: 8px 0 20px 0px;
 	border: 1px solid black;
 	border-radius: 8px;
 	box-sizing: border-box;
 }
 
 .text {
-	width: 60%;
-	padding: 12px 20px;
-	margin: 8px 0 20px 130px;
+	width: 100%;
+	padding: 10px ;
+	margin: 8px 0 20px 0px;
 	border: 1px solid black;
 	border-radius: 8px;
 	box-sizing: border-box;
@@ -337,17 +335,17 @@ textarea {
 }
 
 label {
-	margin: 8px 0 20px 130px;
+	margin: 8px 0 20px 0px;
 	color: white;
 	font-size: 1.2em;
 }
 
 #button {
-	width: 60%;
+	width: 100%;
 	background-color: #ff0000;
 	color: white;
-	padding: 14px 20px;
-	margin: 8px 0 20px 130px;
+	padding: 10px;
+	margin: 8px 0 40px 0px;
 	border: 1px solid white;
 	border-radius: 4px 4px;
 }
@@ -453,22 +451,13 @@ label {
 	}
 	.our-menus h3{
 		font-size: 250%;
+	
 	}
-	.form{
-		height: 900px;
-		padding-left: 100px;
-	}
-	.text{  
-		width: 70%;
-	}
-	textarea{
-		width: 70%;
-	}
-	#button{
-		width: 70%;
-		padding-left: 20px;
-	}
+.form{
+	height: 500px;
 }
+}
+/* Large laptop screens */
 @media screen and (max-width: 1200px)  {
 	.left-text{
 		text-align: center;
@@ -497,16 +486,15 @@ label {
 		width: 40%;
 		}
 		.form{
-			width: 60%;
+			width: 50%;
+			height: 450px;
 		}
-		#button{
-			width: 60%;
-		}
+	
 		iframe{
 			margin-left: 80px;
 		}
 }
-/* Small laptops and tablets medium size screens */
+/* Tablets medium size screens */
 @media screen and (max-width: 993px){
 		footer {
 			height: 650px;
@@ -541,31 +529,13 @@ label {
 			width: 100%;
 		}
 		.form {
-			width: 60%;
+			width: 50%;
+			height: 450px;
 		}
 		.form h3 {
 			width: 80%;
 			margin: 0 0 10px 50px;
 			padding: 0;
-		}
-		textarea {
-			width: 80%;
-			margin: 8px 0 20px 50px;
-		}
-		.text {
-			width: 80%;
-			margin: auto;
-			margin: 8px 0 20px 50px;
-		}
-		label {
-			width: 80%;
-			margin: 8px 0 20px 50px;
-			padding: 0;
-		}
-		#button {
-			width: 80%;
-			margin: auto;
-			margin: 8px 0 20px 50px;
 		}
 		iframe{
 			margin: 0 10px 20px 20px;
@@ -623,7 +593,7 @@ label {
 		}
 		.form {
 			width: 70%;
-			height: 600px;
+			height: 400px;
 		}
 		.form h3 {
 			width: 100%;
@@ -632,24 +602,23 @@ label {
 		}
 		textarea {
 			width: 100%;
-			margin: 8px auto 10px auto;
+			margin: 8px 0 10px 0;
 			padding: 12px 20px;
 		}
 		.text {
 			width: 100%;
-			margin: 8px auto 20px auto;
+			margin: 8px 0 20px 0;
 			padding: 12px 20px;
 		}
 		label {
 			width: 100%;
-			margin: auto;
+			margin: 0;
 			padding: 0;
 		}
 		#button {
 			width: 100%;
-			margin: auto;
 			padding: 14px 20px;
-			margin: 2px auto 10px auto;
+			margin: 2px 0 10px 0;
 		}
 		#pic1 {
 			width: 100%;
