@@ -45,7 +45,7 @@ The form can be found on the about page. The form needs an email address and nam
  
  * I tested the site for responsiveness using devtools on mobile devices, tablets, laptops and large monitors and confirm that the sites works well on all platforms.
  
- * I confirmed on all that the website was visible and all the elements were easy to detect and use. 
+ * I confirmed that the entire website was visible and all the elements were easy to detect and use. 
  
  * I proof read all the content to ensure it was correct and free of spelling errors.
 
@@ -61,6 +61,39 @@ The form can be found on the about page. The form needs an email address and nam
 
 ![Screenshot 2021-11-19 22 54 32](https://user-images.githubusercontent.com/91072896/142701419-7eb8950a-40fa-40b9-b818-9383c36d5bae.png)
 
+* Accessibility
+  * For each page of the website, I used devtools to run lighthouse, and they all scored well primarily on accessibility. Below are the results for each webpage
+  
+    * Home
+    ![Screenshot 2021-11-19 23 45 57](https://user-images.githubusercontent.com/91072896/142704848-c9cacddf-51e9-4225-aea8-2756f3c9dded.png)
+    * Menu
+    ![Screenshot 2021-11-19 23 48 32](https://user-images.githubusercontent.com/91072896/142704929-3106919f-730a-47cf-bf04-cb5e13228e9e.png)
+    * About
+    ![image](https://user-images.githubusercontent.com/91072896/142705083-7a898b25-6417-45f8-80b9-c242e45d80ef.png)
 
+**Bugs**
 
+When I deployed my website I failed to remember that the header being fixed and the footeer being position relative would be an issue. I found this out when making my website reponsive for mobile devices. I solved the problem by adding a z-index to the header and footer and making the number on the header index higher then the footer so it would over lap as I had intended it too.
+  
+**Unfixed Bugs**
+  
+  There are no unfixed bugs
+
+**Deployment**
+
+These are the steps used to deploy the website. The site was deployed using GitHub.
+* Create the repository for the website you wish to publish.
+* The next step is to push code.
+* Then go to the settings.
+* Scroll down to Github pages and click on the link.
+* Then at the source there is a drop down icon click on this and select main branch.
+* The page will refresh with a link to the website. Once the link is selected then website is deployed.
+
+**Credits**
+
+**Content**
+  * The code used to create the feed back form was taken from https://www.w3schools.com/ 
+
+**Media**
+  * All images and background images used in the website were taken from https://www.pexels.com/
 
