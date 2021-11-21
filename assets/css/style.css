@@ -308,6 +308,8 @@ footer h3 {
 	border-radius: 5px 5px;
 	padding: 50px;
 	margin: 80px auto;
+	background-color:  rgb(41, 43, 43);
+
 }
 
 .form h3 {
@@ -402,6 +404,9 @@ label {
 	text-shadow: 2px 2px black;
 	letter-spacing: normal;
 }
+.anchor{
+padding-top: 40px; 
+margin-top: -40px;}
 
 
 /* media queries */
@@ -624,6 +629,7 @@ label {
 			width: 100%;
 			padding:0;
 			margin: 0;
+			height: 300px;
 		}
 		#pic2 {
 			float: left;
@@ -631,6 +637,7 @@ label {
 			width: 100%;
 			padding: 0;
 			margin: 0;
+			height: 500px;
 		}
 		#pic3{
 			width: 100%;
