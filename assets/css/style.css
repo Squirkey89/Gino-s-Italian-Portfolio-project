@@ -31,7 +31,8 @@ header {
 	margin-top: 0px;
 	height: 400px;
 	position: fixed;
- }
+	z-index: 11;
+}
 
 
 /* logo */
@@ -205,6 +206,7 @@ footer {
 	padding-top: 50px;
 	padding-left: 15%;
 	position: relative;
+	z-index: 1;
 }
 
 footer h3 {
