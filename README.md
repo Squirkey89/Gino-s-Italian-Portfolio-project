@@ -13,6 +13,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
     * [Landing](#id-landing)
     * [Introduction](#id-Introduction)
     * [Opening Hours](#id-open)
+    * [Iframe](#id-frame)
  * Testing 
  * Validator Testing
  * Bugs
@@ -60,6 +61,8 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
    * Just as the user scrolls down the website the operating hours are available this is centered in the middle of the screen. This is useful to the user as its useful information that can be easily found. 
 ![Opening-hours](https://user-images.githubusercontent.com/91072896/143156824-bc02ed9d-d92d-4bd5-8b28-a9a787185bbc.png)
 
+* ### Iframe<div id='id-frame'/> 
+  * Just at the bottom of the page above the footer an iframe is positioned, this shows the address of the restaurant. This feature can be clicked on and this brings the user to google maps where they can find directions to the reataurant. This is useful as it makes it easy for the user to find the restaurant location.
+![iframe of business location](https://user-images.githubusercontent.com/91072896/143157863-c5e79e59-fd4e-4e88-9240-128dc3aca521.png)
 
-       
       
