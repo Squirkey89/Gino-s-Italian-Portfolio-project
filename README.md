@@ -18,9 +18,9 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
  * Deployment
  * Credits
  * Acknowledgements
-
-## UX<div id='id-ux'/>
-### User Stories<div id='user'/>
+------
+# UX<div id='id-ux'/>
+## User Stories<div id='user'/>
 * As a customer
   * As a customer I want to be able to see images of the food and restaurant.
   * As a customer I want to be able to read the menu and I would like to see pricing.
@@ -33,13 +33,20 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
   * As a business owner I want to attract new customers.
   * As a business owner I want to get the customers feedback so that the service can be improved. 
   *  As the business owner I want to improve the online presence to encourage users to come to Ginos Italian Restaurant. 
+------
+  # Features<div id='id-features'/>
 
-  ## Features<div id='id-features'/>
-
-* ### Navigation bar<div id='id-nav'/> 
+* ## Navigation bar<div id='id-nav'/> 
 
      * The navigation bar is located in the center of the screen and is just below the logo at the top of the page. There are three different tabs that the users can chose from Home, Menu and About. If the user also clicks on the logos above the navbar this will bring them back to the Home page. 
      * The navigation bar is fixed on the website.This is so the naviagtion bar will follow the user down the page as they scroll down. This makes it easier for the user to navigate through the website without having to scroll back up to the top of the page everytime.
      * The navigation bar appears the exact same on all three webpages.
 
 ![The navigation bar](https://user-images.githubusercontent.com/91072896/143153479-f2ef2571-a19d-4a59-81f9-f93bb6727de5.png)
+
+* ## Landing Image
+  * One of the first things that a users will see when they open the website is the landing image in the body of the page. This image depicts the restaurant interior. The image is useful as his helps set the scene for users and gives them a sense of how the dining experience in the restaurant would be.
+
+![Restaurants interior](https://user-images.githubusercontent.com/91072896/143154451-a6a7f8ac-1583-47a5-9c2f-ecad79f0ff2a.png)
+
+      
