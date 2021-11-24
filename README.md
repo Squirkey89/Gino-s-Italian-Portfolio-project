@@ -27,7 +27,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
  * [Deployment](#id-deploy)
  *  [Credits](#id-credits)
  * [Acknowledgements](#id-acknowledgements)
-------
+
 # UX<div id='id-ux'/>
 ## User Stories<div id='user'/>
 * As a customer
@@ -42,7 +42,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
   * As a business owner I want to attract new customers.
   * As a business owner I want to get the customers feedback so that the service can be improved. 
   *  As the business owner I want to improve the online presence to encourage users to come to Ginos Italian Restaurant. 
-------
+
   # Features<div id='id-features'/>
 
 * ## Navigation bar<div id='id-nav'/> 
@@ -88,7 +88,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 * ## Feedback Form<div id='feed'/>
    * The feedback form can be found in the about section of the website. Users benefit from the feedback form since it allows them to communicate directly with the restaurant about their experiences.
 ![Feedback-form](https://user-images.githubusercontent.com/91072896/143214782-34af88ba-5767-4d51-867b-3143d70b9553.png)
------
+
 
 # Testing<div id='id-testing'/>
 * Search Engines
@@ -133,7 +133,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 *  When I deployed my website I discovered there was an issue when testing responsiveness on my Samsung Galaxy A50. 
    * The image below shows the bug before it was fixed. The footer overlaps the header and navigation bar when viewing on mobile devices.
    ![bug](https://user-images.githubusercontent.com/91072896/143229122-dceba326-afec-457b-82ad-b3078935e8d4.png)
-* The problem was solved by adding a z-index to the header and footer and making the header index number higher than the footer index so the header and navigation bar would overlap the footer as I had intended.
+* The problem was solved by adding z-index:11; to the header and z-index:1; to the footer. Once the header index number is higher than the footer index the header and navigation bar would overlap the footer as I had intended.
 
 # Unfixed Bugs<div id='id-unfixed'/> 
 * When testing the website on iPhone 12 Pro. In the footer, the contact number appears in blue text and is underlined. 
