@@ -129,5 +129,10 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
     * About
     ![Lighthouse-about-result](https://user-images.githubusercontent.com/91072896/143224345-b1b24396-9120-4170-a2eb-86aaccaa3cf8.png)
 
+## Bugs<div id='id-bugs'/>
+*  When I deployed my website I discovered there was an issue when testing responsiveness on my Samsung Galaxy A50. 
+   * The image below shows the bug before it was fixed. The footer overlaps the header and navigation bar when viewing on mobile devices.
+   ![bug](https://user-images.githubusercontent.com/91072896/143229122-dceba326-afec-457b-82ad-b3078935e8d4.png)
+* The problem was solved by adding a z-index to the header and footer and making the header index number higher than the footer index so the header and navigation bar would overlap the footer as I had intended.
 
 
