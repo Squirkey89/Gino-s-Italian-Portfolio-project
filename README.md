@@ -10,6 +10,8 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
     * [User stories](#id-user)
  * [Features](#id-ux) 
     * [Navigation](#id-nav)
+    * [Landing](#id-landing)
+    * [Introduction](#id-Introduction)
  * Testing 
  * Validator Testing
  * Bugs
@@ -44,9 +46,14 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 
 ![The navigation bar](https://user-images.githubusercontent.com/91072896/143153479-f2ef2571-a19d-4a59-81f9-f93bb6727de5.png)
 
-* ## Landing Image
+* ## Landing Image<div id='id-landing'/> 
   * One of the first things that a users will see when they open the website is the landing image in the body of the page. This image depicts the restaurant interior. The image is useful as his helps set the scene for users and gives them a sense of how the dining experience in the restaurant would be.
 
 ![Restaurants interior](https://user-images.githubusercontent.com/91072896/143154451-a6a7f8ac-1583-47a5-9c2f-ecad79f0ff2a.png)
 
+* ## Introduction<div id='id-Introduction'/> 
+   * This is a short introduction to the restaurant to attempt to entice the user to want to try out what the restaurant what it offers. This is useful to users and it gives them more of an insight in what they can expect from the restaurant
+   ![Introduction text to Restaurant](https://user-images.githubusercontent.com/91072896/143155976-cce66a42-98ec-4934-90f7-e76a65494143.png)
+
+       
       
