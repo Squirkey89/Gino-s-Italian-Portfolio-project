@@ -21,8 +21,8 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
     * [Feedback Form](#id-feed)
  * [Testing](#id-testing) 
  * [Validator Testing](#id-validator)
- * Bugs
- * Unfixed Bugs
+ * [Bugs](#id-bugs)
+ * [Unfixed Bugs](#id-bugs)
  * Technologies used
  * Deployment
  * Credits
@@ -129,10 +129,17 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
     * About
     ![Lighthouse-about-result](https://user-images.githubusercontent.com/91072896/143224345-b1b24396-9120-4170-a2eb-86aaccaa3cf8.png)
 
-## Bugs<div id='id-bugs'/>
+# Bugs<div id='id-bugs'/>
 *  When I deployed my website I discovered there was an issue when testing responsiveness on my Samsung Galaxy A50. 
    * The image below shows the bug before it was fixed. The footer overlaps the header and navigation bar when viewing on mobile devices.
    ![bug](https://user-images.githubusercontent.com/91072896/143229122-dceba326-afec-457b-82ad-b3078935e8d4.png)
 * The problem was solved by adding a z-index to the header and footer and making the header index number higher than the footer index so the header and navigation bar would overlap the footer as I had intended.
+
+# Unfixed Bugs<div id='id-unfixed'/> 
+* When testing the website on iPhone 12 Pro. In the footer, the contact number appears in blue text and is underlined. 
+* The error did not appear on any other device I tested on. It also didn't appear on Chrome dev tools when testing on iPhone 12 pro. 
+* The image below shows this bug. I was unable to fix this.
+  
+  ![unfixed-bug](https://user-images.githubusercontent.com/91072896/143229126-d7bc87cc-00bc-4cea-8549-216ed274c0e5.png)
 
 
