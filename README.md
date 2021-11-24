@@ -23,8 +23,8 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
  * [Validator Testing](#id-validator)
  * [Bugs](#id-bugs)
  * [Unfixed Bugs](#id-bugs)
- * Technologies used
- * Deployment
+ * [Technologies used](#id-tech) 
+ * [Deployment](#id-deploy)
  * Credits
  * Acknowledgements
 ------
@@ -142,10 +142,23 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
   
   ![unfixed-bug](https://user-images.githubusercontent.com/91072896/143229126-d7bc87cc-00bc-4cea-8549-216ed274c0e5.png)
 
-## Technologies Used<div id='id-tech'/>
-* HTML5- Structure website layout.
+# Technologies Used<div id='id-tech'/>
+* HTML5- Structure and website layout.
 * CSS3- Styled my website.
 * Gitpod 
 * GitHub 
 * Google Fonts- For the fonts used.
 * Font Awesome - Footer Icons.
+
+# Deployment<div id='id-deploy'/>
+
+These are the steps used to deploy the website. The site was deployed using GitHub.
+* Create the repository for the website you wish to publish.
+* The next step is to push code.
+* Then go to the settings.
+* Scroll down to Github pages and click on the link.
+* Then at the source there is a drop down icon click on this and select main branch.
+* The page will refresh with a link to the website. Once the link is selected then website is deployed.
+
+The live link to this website can be found here - [Gino's Italian Restaurant](https://squirkey89.github.io/Gino-s-Italian-Portfolio-project/)
+
