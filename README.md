@@ -25,8 +25,8 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
  * [Unfixed Bugs](#id-bugs)
  * [Technologies used](#id-tech) 
  * [Deployment](#id-deploy)
- * Credits
- * Acknowledgements
+ *  [Credits](#id-credits)
+ * [Acknowledgements](#id-acknowledgements)
 ------
 # UX<div id='id-ux'/>
 ## User Stories<div id='user'/>
@@ -162,7 +162,7 @@ These are the steps used to deploy the website. The site was deployed using GitH
 
 The live link to this website can be found here - [Gino's Italian Restaurant](https://squirkey89.github.io/Gino-s-Italian-Portfolio-project/)
 
-## Credits<div id='id-credits'/>
+# Credits<div id='id-credits'/>
 
 **Content**
   * The code used to create the feed back form was taken from [w3schools](https://www.w3schools.com/howto/howto_css_contact_section.asp) 
@@ -174,4 +174,9 @@ The live link to this website can be found here - [Gino's Italian Restaurant](ht
 **Media**
   * All images and background images used in the website were taken from [pexels](https://www.pexels.com/)
   * For icons in the footer I used [font awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
+
+# Acknowledgments<div id='id-acknowledgements'/>
+   * My mentor for the useful feedback and direction and guidance he provided to me.
+   * The slack community for help and and advice.
+   * Code Institite course material.
 
