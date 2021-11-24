@@ -8,7 +8,8 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 # Table of Contents
  * [UX](#id-ux)
     * [User stories](#id-user)
- * Features 
+ * [Features](#id-ux) 
+    * [Navigation](#id-nav)
  * Testing 
  * Validator Testing
  * Bugs
@@ -23,7 +24,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 * As a customer
   * As a customer I want to be able to see images of the food and restaurant.
   * As a customer I want to be able to read the menu and I would like to see pricing.
-  * As a customer I would like to be be able to see where the restaurant is located
+  * As a customer I would like to be be able to see where the restaurant is located.
   * As a customer I'd like access to Ginos Social Media accounts, so that I can read customer reviews.
   * As a customer I want there to be a feedback form so I can give my opionions and feedback.
 * As a returning customer
@@ -32,3 +33,13 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
   * As a business owner I want to attract new customers.
   * As a business owner I want to get the customers feedback so that the service can be improved. 
   *  As the business owner I want to improve the online presence to encourage users to come to Ginos Italian Restaurant. 
+
+  ## Features<div id='id-features'/>
+
+* ### Navigation bar<div id='id-nav'/> 
+
+     * The navigation bar is located in the center of the screen and is just below the logo at the top of the page. There are three different tabs that the users can chose from Home, Menu and About. If the user also clicks on the logos above the navbar this will bring them back to the Home page. 
+     * The navigation bar is fixed on the website.This is so the naviagtion bar will follow the user down the page as they scroll down. This makes it easier for the user to navigate through the website without having to scroll back up to the top of the page everytime.
+     * The navigation bar appears the exact same on all three webpages.
+
+![The navigation bar](https://user-images.githubusercontent.com/91072896/143153479-f2ef2571-a19d-4a59-81f9-f93bb6727de5.png)
