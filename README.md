@@ -168,7 +168,7 @@ The live link to this website can be found here - [Gino's Italian Restaurant](ht
   * The code used to create the feed back form was taken from [w3schools](https://www.w3schools.com/howto/howto_css_contact_section.asp) 
   * For the two different font styles applied in this project I used [Google Fonts](https://fonts.google.com)
   * I used Am I Responsive web site for checking responsiveness on all Apple devices screen sizes [am i responsiveness](http://ami.responsivedesign.is/)
-  * I used maps.ie to ad a pin to my iframe of the business location [maps.ie](https://www.maps.ie/create-google-map/)
+  * I used maps.ie to add a pin to my iframe of the business location [maps.ie](https://www.maps.ie/create-google-map/)
   * In designing my header, navigation bar and footer I referenced the [love running project](https://github.com/Code-Institute-Org/love-running-2.0)
 
 **Media**
