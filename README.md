@@ -11,9 +11,12 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
  * [Features](#id-ux) 
     * [Navigation](#id-nav)
     * [Landing](#id-landing)
-    * [Introduction](#id-Introduction)
+    * [Content](#id-content)
+        * [Introduction](#id-introduction)
+        * [Takeaway](#id-take)
     * [Opening Hours](#id-open)
     * [Iframe](#id-frame)
+    * [Footer](#id-foot)
  * Testing 
  * Validator Testing
  * Bugs
@@ -53,16 +56,26 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 
 ![Restaurants interior](https://user-images.githubusercontent.com/91072896/143154451-a6a7f8ac-1583-47a5-9c2f-ecad79f0ff2a.png)
 
-* ## Introduction<div id='id-Introduction'/> 
-   * This is a short introduction to the restaurant to attempt to entice the user to want to try out what the restaurant what it offers. This is useful to users and it gives them more of an insight in what they can expect from the restaurant.
+* ## Content<div id='id-content'/>
+  * ### Introduction<div id='id-introduction'/> 
+    * This is a short introduction to the restaurant to attempt to entice the user to want to try out what the restaurant what it offers. This is useful to users and it gives them more of an insight in what they can expect from the restaurant.
    ![Introduction text to Restaurant](https://user-images.githubusercontent.com/91072896/143155976-cce66a42-98ec-4934-90f7-e76a65494143.png)
+  * ### Takeaway<div id='id-take'/> 
+    * This is section of the website is useful to the user as it contains information for on how to order takeaway.
+![Takeaway info](https://user-images.githubusercontent.com/91072896/143160569-31b8fd21-ed73-49f3-947e-e98ee0ae7f62.png)
 
 * ## Opening Hours<div id='id-open'/> 
    * Just as the user scrolls down the website the operating hours are available this is centered in the middle of the screen. This is useful to the user as its useful information that can be easily found. 
 ![Opening-hours](https://user-images.githubusercontent.com/91072896/143156824-bc02ed9d-d92d-4bd5-8b28-a9a787185bbc.png)
 
-* ### Iframe<div id='id-frame'/> 
+* ## Iframe<div id='id-frame'/> 
   * Just at the bottom of the page above the footer an iframe is positioned, this shows the address of the restaurant. This feature can be clicked on and this brings the user to google maps where they can find directions to the reataurant. This is useful as it makes it easy for the user to find the restaurant location.
 ![iframe of business location](https://user-images.githubusercontent.com/91072896/143157863-c5e79e59-fd4e-4e88-9240-128dc3aca521.png)
 
-      
+* ## Footer<div id='id-foot'/> 
+
+  * At the footer of the page the restaurants contact information is provided. The restaurants phone number, email and address are available. The is important information and is useful to the customer as this gives them information to contact the restaurant to make an order. 
+  * Also provided at the bottom of the page are the restaurants social media links Facebook Instagram and Twitter. The user can follow and interact with the restaurant and check customer reviews. 
+  * There is also menu times shown at the footer. This informs the customer at what times lunch, dinner are served and there is also an early bird menu which offer discounted prices.  
+  * The footer appears the same on all three webpages.
+![Footer](https://user-images.githubusercontent.com/91072896/143159052-29eb5cfa-9d68-4689-a06c-93e6322f7458.png)
