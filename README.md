@@ -17,6 +17,8 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
     * [Opening Hours](#id-open)
     * [Iframe](#id-frame)
     * [Footer](#id-foot)
+    * [Menu](#id-food)
+    * [Feedback Form](#id-feed)
  * Testing 
  * Validator Testing
  * Bugs
@@ -79,3 +81,13 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
   * There is also menu times shown at the footer. This informs the customer at what times lunch, dinner are served and there is also an early bird menu which offer discounted prices.  
   * The footer appears the same on all three webpages.
 ![Footer](https://user-images.githubusercontent.com/91072896/143159052-29eb5cfa-9d68-4689-a06c-93e6322f7458.png)
+
+* ## Menu<div id='id-food'/>
+
+  * Users are presented with four separate menu options on the Menu page. There is a lunch menu, an early bird menu, a dinner menu, and a drinks menu. The benefits the user as the menu communicates information such as the menu items available and the price of those items.
+![Menu](https://user-images.githubusercontent.com/91072896/143213648-624cd5f8-5de6-42c9-b2e7-8dc532d41e3a.png)
+
+* ## Feedback Form<div id='feed'/>
+
+  * The feedback form can be found in the about section of the website. Users benefit from the feedback form since it allows them to communicate directly with the restaurant about their experiences.
+![Feedback-form](https://user-images.githubusercontent.com/91072896/143214782-34af88ba-5767-4d51-867b-3143d70b9553.png)
