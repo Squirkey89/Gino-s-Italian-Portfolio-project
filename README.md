@@ -20,7 +20,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
     * [Menu](#id-food)
     * [Feedback Form](#id-feed)
  * [Testing](#id-testing) 
- * Validator Testing
+ * [Validator Testing](#id-validator)
  * Bugs
  * Unfixed Bugs
  * Technologies used
@@ -103,4 +103,31 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
   * Below are the results of my testing of the Feedback form.
     * The form will not be submitted if the name and email text boxes or feedback textarea are not filled out.
     * If you try to submit the email without entering an email address, a message will request that you enter your email address.
-    * After selecting the submit button, the page will reload. The user remains on the same page.
+    * After selecting the submit button, the page will reload. The user remains on the same pag
+
+# Validator Testing<div id='id-validator'/>
+* HTML
+  * I tested all three webpages on the W3C HTML validation service and all three passed with no errors detected.
+  ![W3C HTML validation](https://user-images.githubusercontent.com/91072896/143222763-b71a4fee-f13d-44b6-8a68-763b14333d5f.png)
+ 
+
+* CSS
+  * I also tested my websites CSS on the W3C CSS validation service and this also passed with no errors detected.
+  ![ W3C CSS validation](https://user-images.githubusercontent.com/91072896/143222789-a47a7ee2-b9b4-4d1d-915a-4eaf30a147f0.png)
+
+* Accessibility
+  * For each page of the website, I used devtools to run lighthouse, and they all scored well primarily on accessibility. Below are the results for each webpage
+
+    * Home
+    ![Lighthouse-home-results](https://user-images.githubusercontent.com/91072896/143224346-a953c416-093e-462d-88ce-c67a9e2a8072.png)
+
+    
+    * Menu
+    ![Lighthouse-menu-results](https://user-images.githubusercontent.com/91072896/143224348-57d92239-97db-4773-92bc-a9e85fcd1419.png)
+
+    
+    * About
+    ![Lighthouse-about-result](https://user-images.githubusercontent.com/91072896/143224345-b1b24396-9120-4170-a2eb-86aaccaa3cf8.png)
+
+
+
