@@ -142,4 +142,10 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
   
   ![unfixed-bug](https://user-images.githubusercontent.com/91072896/143229126-d7bc87cc-00bc-4cea-8549-216ed274c0e5.png)
 
-
+## Technologies Used<div id='id-tech'/>
+* HTML5- Structure website layout.
+* CSS3- Styled my website.
+* Gitpod 
+* GitHub 
+* Google Fonts- For the fonts used.
+* Font Awesome - Footer Icons.
