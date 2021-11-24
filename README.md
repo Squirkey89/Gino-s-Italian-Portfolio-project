@@ -19,7 +19,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
     * [Footer](#id-foot)
     * [Menu](#id-food)
     * [Feedback Form](#id-feed)
- * Testing 
+ * [Testing](#id-testing) 
  * Validator Testing
  * Bugs
  * Unfixed Bugs
@@ -71,23 +71,36 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 ![Opening-hours](https://user-images.githubusercontent.com/91072896/143156824-bc02ed9d-d92d-4bd5-8b28-a9a787185bbc.png)
 
 * ## Iframe<div id='id-frame'/> 
-  * Just at the bottom of the page above the footer an iframe is positioned, this shows the address of the restaurant. This feature can be clicked on and this brings the user to google maps where they can find directions to the reataurant. This is useful as it makes it easy for the user to find the restaurant location.
+   * Just at the bottom of the page above the footer an iframe is positioned, this shows the address of the restaurant. This feature can be clicked on and this brings the user to google maps where they can find directions to the reataurant. This is useful as it makes it easy for the user to find the restaurant location.
 ![iframe of business location](https://user-images.githubusercontent.com/91072896/143157863-c5e79e59-fd4e-4e88-9240-128dc3aca521.png)
 
 * ## Footer<div id='id-foot'/> 
-
-  * At the footer of the page the restaurants contact information is provided. The restaurants phone number, email and address are available. The is important information and is useful to the customer as this gives them information to contact the restaurant to make an order. 
+   * At the footer of the page the restaurants contact information is provided. The restaurants phone number, email and address are available. The is important information and is useful to the customer as this gives them information to contact the restaurant to make an order. 
   * Also provided at the bottom of the page are the restaurants social media links Facebook Instagram and Twitter. The user can follow and interact with the restaurant and check customer reviews. 
   * There is also menu times shown at the footer. This informs the customer at what times lunch, dinner are served and there is also an early bird menu which offer discounted prices.  
   * The footer appears the same on all three webpages.
 ![Footer](https://user-images.githubusercontent.com/91072896/143159052-29eb5cfa-9d68-4689-a06c-93e6322f7458.png)
 
 * ## Menu<div id='id-food'/>
-
-  * Users are presented with four separate menu options on the Menu page. There is a lunch menu, an early bird menu, a dinner menu, and a drinks menu. The benefits the user as the menu communicates information such as the menu items available and the price of those items.
+   * Users are presented with four separate menu options on the Menu page. There is a lunch menu, an early bird menu, a dinner menu, and a drinks menu. The benefits the user as the menu communicates information such as the menu items available and the price of those items.
 ![Menu](https://user-images.githubusercontent.com/91072896/143213648-624cd5f8-5de6-42c9-b2e7-8dc532d41e3a.png)
 
 * ## Feedback Form<div id='feed'/>
-
-  * The feedback form can be found in the about section of the website. Users benefit from the feedback form since it allows them to communicate directly with the restaurant about their experiences.
+   * The feedback form can be found in the about section of the website. Users benefit from the feedback form since it allows them to communicate directly with the restaurant about their experiences.
 ![Feedback-form](https://user-images.githubusercontent.com/91072896/143214782-34af88ba-5767-4d51-867b-3143d70b9553.png)
+-----
+
+# Testing<div id='id-testing'/>
+* Search Engines
+  * I tested my website on Google Chrome, Safari and Mozilla Firefox and all pages, links on those pages, and footer icon links performed well on each of those search engines. I tested the website navigation and internal links and iframe and confirmed that these also worked on those search engines.
+* Amiresponsive
+  * To test my website on all iphone devices I used [am i responsiveness](http://ami.responsivedesign.is/). I added a screenshot of how these look on the top of the Read.me 
+* Mobile phone/Tablets
+  * Using devtools, I tested the responsiveness of the site on all mobile devices and tablets supported by the tool. In addition, I tested it using my Samsung Galaxy A50 phone, an Iphone 12 Pro, and an iPad.
+* Laptop  
+  * I tested the website responsiveness for laptops and larger scrrens using an Apple Macbook an Imac and an ASUS Chromebook Flip C434, as well as using responsiveness devtools.
+* Feedback form
+  * Below are the results of my testing of the Feedback form.
+    * The form will not be submitted if the name and email text boxes or feedback textarea are not filled out.
+    * If you try to submit the email without entering an email address, a message will request that you enter your email address.
+    * After selecting the submit button, the page will reload. The user remains on the same page.
