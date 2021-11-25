@@ -211,6 +211,7 @@ footer {
 
 footer h3 {
 	text-decoration: underline;
+	text-align: left;
 }
 
 #time {
@@ -257,6 +258,10 @@ footer h3 {
 	bottom: 0px;
 	right: 0px;
 	text-align: center;
+	height: 50px;
+}
+#copyright p{
+	margin-top: 15px;
 }
 
 
@@ -352,7 +357,7 @@ label {
 	border-radius: 4px 4px;
 	cursor: pointer;
 }
-/* Thank you */
+/* Style Thank you page text and image */
 #thank-you{ 
 	text-align: center;
 	margin-top: 20px;
@@ -526,6 +531,9 @@ label {
 		footer {
 			height: 650px;
 		}
+		footer h3 {
+			text-align: center;
+		}
 		#contact {
 			float: left;
 			text-align: center;
@@ -629,6 +637,8 @@ label {
 			width: 100%;
 			margin: auto;
 			padding: 0 0 10px 0;
+			text-align: center;
+			
 		}
 		textarea {
 			width: 100%;
