@@ -19,7 +19,8 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
     * [Footer](#id-foot)
     * [Menu](#id-food)
     * [Feedback Form](#id-feed)
- * [Testing](#id-testing) 
+    * [Thank you](#id-thanks)
+    * [Testing](#id-testing) 
  * [Validator Testing](#id-validator)
  * [Bugs](#id-bugs)
  * [Unfixed Bugs](#id-bugs)
@@ -88,6 +89,12 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 * ## Feedback Form<div id='feed'/>
    * The feedback form can be found in the about section of the website. Users benefit from the feedback form since it allows them to communicate directly with the restaurant about their experiences.
 ![Feedback-form](https://user-images.githubusercontent.com/91072896/143214782-34af88ba-5767-4d51-867b-3143d70b9553.png)
+
+* ## Thank you<div id='thanks'/>
+   * Thankyou.html was developed to improve the feedback experience for users. 
+   * When the user fills out the form and clicks on submit, they will be directed to this thank you page. 
+   * The user receives a response, letting them know that their message was sent. Because the user receives confirmation, the experience is improved.
+   ![thank-you](https://user-images.githubusercontent.com/91072896/143430216-edd8e46e-6277-4974-adc7-78ee9726537d.png)
 
 
 # Testing<div id='id-testing'/>
