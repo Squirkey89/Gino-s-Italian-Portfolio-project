@@ -352,7 +352,30 @@ label {
 	border-radius: 4px 4px;
 	cursor: pointer;
 }
+/* Thank you */
+#thank-you{ 
+	text-align: center;
+	margin-top: 20px;
+}
+	
+#thank-you h2, h3{
+	text-align: center;
+	margin-top: 0px;
 
+
+
+
+}
+#bgimg{
+	background-position: center;
+	background-size: cover;
+	display: block;
+	margin-top: 100px;
+	border: rgb(176, 179, 11) 2px solid;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%
+}
 
 /* Add style to the menus on menu.html page */
 
@@ -459,6 +482,11 @@ label {
 .form{
 	height: 500px;
 }
+#thank-you{ 
+	font-size: 2em;}
+	
+#thank-you h2, h3{
+	font-size: 2em;}
 }
 /* Large laptop screens */
 @media screen and (max-width: 1200px)  {
@@ -543,6 +571,9 @@ label {
 		iframe{
 			margin: 0 10px 20px 20px;
 			width: 90%;
+		}
+		#bgimg{
+			width: 70%;
 		}
 }
 /* Mobile devices for smaller screens */
@@ -650,4 +681,14 @@ label {
 			margin: 0;
 			border: none;
 		}
+		#bgimg{
+			width: 80%;
+			margin-top: 200px;
+		}
+		#thank-you{ 
+		}
+		#thank-you h2, h3{
+			margin: 0;
+		}
+				
 }
