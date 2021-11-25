@@ -114,7 +114,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 
 # Validator Testing<div id='id-validator'/>
 * HTML
-  * I tested all three webpages on the W3C HTML validation service and all three passed with no errors detected.
+  * I tested all four webpages on the W3C HTML validation service and all four passed with no errors detected.
   ![W3C HTML validation](https://user-images.githubusercontent.com/91072896/143222763-b71a4fee-f13d-44b6-8a68-763b14333d5f.png)
  
 
@@ -126,15 +126,26 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
   * For each page of the website, I used devtools to run lighthouse, and they all scored well primarily on accessibility. Below are the results for each webpage
 
     * Home
-    ![Lighthouse-home-results](https://user-images.githubusercontent.com/91072896/143224346-a953c416-093e-462d-88ce-c67a9e2a8072.png)
+    
+      ![Lighthouse-home-results](https://user-images.githubusercontent.com/91072896/143449403-33ba8f0d-6c01-442d-b28f-ae7f0a311332.png)
 
     
     * Menu
-    ![Lighthouse-menu-results](https://user-images.githubusercontent.com/91072896/143224348-57d92239-97db-4773-92bc-a9e85fcd1419.png)
+    
+      ![Lighthouse-menu-results](https://user-images.githubusercontent.com/91072896/143449405-8d72d922-1223-41e5-9a42-fc73a63936d5.png)
 
     
     * About
-    ![Lighthouse-about-result](https://user-images.githubusercontent.com/91072896/143224345-b1b24396-9120-4170-a2eb-86aaccaa3cf8.png)
+    
+      ![Lighthouse-thank-you-results](https://user-images.githubusercontent.com/91072896/143449406-88d3b469-b12f-4a68-a36e-685a7a8f3cdb.png)
+
+
+    * Thank you
+    
+      ![Lighthhouse-about-results](https://user-images.githubusercontent.com/91072896/143449408-4654ba3b-374c-4c3d-a057-230d442472e6.png)
+
+
+
 
 # Bugs<div id='id-bugs'/>
 *  When I deployed my website I discovered there was an issue when testing responsiveness on my Samsung Galaxy A50. 
