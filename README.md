@@ -26,7 +26,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
  * [Unfixed Bugs](#id-bugs)
  * [Technologies used](#id-tech) 
  * [Deployment](#id-deploy)
- *  [Credits](#id-credits)
+ * [Credits](#id-credits)
  * [Acknowledgements](#id-acknowledgements)
 
 # UX<div id='id-ux'/>
@@ -86,11 +86,11 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
    * Users are presented with four separate menu options on the Menu page. There is a lunch menu, an early bird menu, a dinner menu, and a drinks menu. The benefits the user as the menu communicates information such as the menu items available and the price of those items.
 ![Menu](https://user-images.githubusercontent.com/91072896/143213648-624cd5f8-5de6-42c9-b2e7-8dc532d41e3a.png)
 
-* ## Feedback Form<div id='feed'/>
+* ## Feedback Form<div id='id-feed'/>
    * The feedback form can be found in the about section of the website. Users benefit from the feedback form since it allows them to communicate directly with the restaurant about their experiences.
 ![Feedback-form](https://user-images.githubusercontent.com/91072896/143214782-34af88ba-5767-4d51-867b-3143d70b9553.png)
 
-* ## Thank you<div id='thanks'/>
+* ## Thank you<div id='id-thanks'/>
    * Thankyou.html was developed to improve the feedback experience for users. 
    * When the user fills out the form and clicks on submit, they will be directed to this thank you page. 
    * The user receives a response, letting them know that their message was sent. The experience is enhanced since the user receives confirmation.
