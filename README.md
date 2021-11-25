@@ -1,6 +1,6 @@
 # Ginos Italian Restaurant
 
-Ginos Italian restaurant specializes in traditional Italian cuisine. The website's primary goal is to promote their authentic and traditional cuisine. TThis website is targeted towards people who love traditional Italian food and to people who just enjoy food, social gatherings and anyone who wants to spend a night in with a takeaway or a night out with family or friends. The website will be useful to potential users because, visitors to the website will gain insight into what they should expect from Ginos Italian Restaurant when they visit the site.
+Ginos Italian restaurant specializes in traditional Italian cuisine. The website's primary goal is to promote their authentic and traditional cuisine. This website is targeted towards people who love traditional Italian food and to people who just enjoy food, social gatherings and anyone who wants to spend a night in with a takeaway or a night out with family or friends. The website will be useful to potential users because, visitors to the website will gain insight into what they should expect from Ginos Italian Restaurant when they visit the site.
 
 ![amiresponsive](https://user-images.githubusercontent.com/91072896/143149082-1c57f4fe-a3e1-49ca-b25d-edf9c5b18ed8.png)
 
@@ -48,9 +48,9 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 
 * ## Navigation bar<div id='id-nav'/> 
 
-     * The navigation bar is located in the center of the screen and is just below the logo at the top of the page. There are three different tabs that the users can chose from Home, Menu and About. If the user also clicks on the logos above the navbar this will bring them back to the Home page. 
-     * The navigation bar is fixed on the website.This is so the naviagtion bar will follow the user down the page as they scroll down. This makes it easier for the user to navigate through the website without having to scroll back up to the top of the page everytime.
-     * The navigation bar appears the exact same on all three webpages.
+     * At the top of the page, just below the logo, you'll find the navigation bar in the center of the screen. Users can choose from three different tabs: Home, Menu, and About. Clicking on the logos above the navbar will also bring the user back to the Home page. 
+     * This website has a fixed navigation bar. This will allow the navigation bar to follow the user down the page as they scroll down. Rather than having to scroll to the top of the page every time, the user can navigate the website more easily.
+     * The navigation bar appears exactly the same on all three pages.
 
 ![The navigation bar](https://user-images.githubusercontent.com/91072896/143153479-f2ef2571-a19d-4a59-81f9-f93bb6727de5.png)
 
@@ -93,7 +93,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 * ## Thank you<div id='thanks'/>
    * Thankyou.html was developed to improve the feedback experience for users. 
    * When the user fills out the form and clicks on submit, they will be directed to this thank you page. 
-   * The user receives a response, letting them know that their message was sent. Because the user receives confirmation, the experience is improved.
+   * The user receives a response, letting them know that their message was sent. The experience is enhanced since the user receives confirmation.
    ![thank-you](https://user-images.githubusercontent.com/91072896/143430216-edd8e46e-6277-4974-adc7-78ee9726537d.png)
 
 
@@ -110,7 +110,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
   * Below are the results of my testing of the Feedback form.
     * The form will not be submitted if the name and email text boxes or feedback textarea are not filled out.
     * If you try to submit the email without entering an email address, a message will request that you enter your email address.
-    * After selecting the submit button, the page will reload. The user remains on the same pag
+    * After selecting the submit button, the user will be directed to the thank you page. This confirms the response has been sent.
 
 # Validator Testing<div id='id-validator'/>
 * HTML
