@@ -152,6 +152,8 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
    * The image below shows the bug before it was fixed. The footer overlaps the header and navigation bar when viewing on mobile devices.
    ![bug](https://user-images.githubusercontent.com/91072896/143229122-dceba326-afec-457b-82ad-b3078935e8d4.png)
 * The problem was solved by adding z-index:11; to the header and z-index:1; to the footer. Once the header index number is higher than the footer index the header and navigation bar would overlap the footer as I had intended.
+* After my website was deployed, I had a second problem on the about.html page. My website has a fixed header. This was causing issues because the fixed header was preventing input fields from working correctly in the form. I could only use the input fields when I scrolled to the top of the form. But as I scroll down further the input fields fail to work. 
+* I tried to solve this with positioning and using z-index but this did not work. With some help from Slack, I fixed this issue by removing the 400px height from my header, and the form now works correctly.
 
 # Unfixed Bugs<div id='id-unfixed'/> 
 * When testing the website on iPhone 12 Pro. In the footer, the contact number appears in blue text and is underlined. 
