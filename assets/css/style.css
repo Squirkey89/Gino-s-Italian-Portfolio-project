@@ -358,10 +358,7 @@ label {
 	border-radius: 4px 4px;
 	cursor: pointer;
 }
-.text textarea{
-	z-index: 8;
-	position: relative;
-}
+
 /* Style Thank you page text and image */
 #thank-you{ 
 	text-align: center;
