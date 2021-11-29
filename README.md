@@ -204,7 +204,7 @@ The live link to this website can be found here - [Gino's Italian Restaurant](ht
   * The icon used for the websites favicon was created and downloaded from [Favicon Generator](https://favicon.io/favicon-generator/).
 
 # Acknowledgments<div id='id-acknowledgements'/>
-   * My mentor for the useful feedback and direction and guidance he provided to me.
-   * The slack community for help and and advice.
+   * My mentor for the useful feedback direction and guidance.
+   * The online tutors and the slack community for help and and advice.
    * Code Institite course material.
 
