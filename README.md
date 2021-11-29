@@ -1,6 +1,6 @@
 # Ginos Italian Restaurant
 
-Ginos Italian restaurant specializes in traditional Italian cuisine. The website's primary goal is to promote their authentic and traditional cuisine. This website is targeted towards people who love traditional Italian food and to people who just enjoy food, social gatherings and anyone who wants to spend a night in with a takeaway or a night out with family or friends. The website will be useful to potential users because, visitors to the website will gain insight into what they should expect from Ginos Italian Restaurant when they visit the site.
+Ginos Italian restaurant specializes in traditional Italian cuisine. The website's primary goal is to promote the restaurants authentic and traditional cuisine. Additionally, I wanted to make my website user-friendly and simple to use so that anyone using the website would have a positive experience. This website is targeted towards people who love traditional Italian food and to people who just enjoy food, social gatherings and anyone who wants to spend a night in with a takeaway or a night out with family or friends. The website will be useful to potential users because, visitors to the website will gain insight into what they should expect from Ginos Italian Restaurant when they visit the site.
 
 ![amiresponsive](https://user-images.githubusercontent.com/91072896/143149082-1c57f4fe-a3e1-49ca-b25d-edf9c5b18ed8.png)
 
@@ -38,11 +38,11 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
   * As a customer I'd like access to Ginos Social Media accounts, so that I can read customer reviews.
   * As a customer I want there to be a feedback form so I can give my opionions and feedback.
 * As a returning customer
-  * As a returning customer I want to be able to read the menu and I would like to see pricing as this may have changed.
+  * As a returning customer I want to be able to read the menu and I would like to see pricing and food as this may have changed.
 * As a business owner
   * As a business owner I want to attract new customers.
   * As a business owner I want to get the customers feedback so that the service can be improved. 
-  *  As the business owner I want to improve the online presence to encourage users to come to Ginos Italian Restaurant. 
+  * As the business owner I want to improve the online presence to encourage users to come to Ginos Italian Restaurant. 
 
   # Features<div id='id-features'/>
 
@@ -68,15 +68,15 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 ![Takeaway info](https://user-images.githubusercontent.com/91072896/143160569-31b8fd21-ed73-49f3-947e-e98ee0ae7f62.png)
 
 * ## Opening Hours<div id='id-open'/> 
-   * Just as the user scrolls down the website the operating hours are available this is centered in the middle of the screen. This is useful to the user as its useful information that can be easily found. 
+   * Just as the user scrolls down the website the operating hours are available this is centered in the middle of the screen. This is beneficial to the user as its important information for the user, as they could potenially visit or order from the restaurant and the opening times can be easily found. 
 ![Opening-hours](https://user-images.githubusercontent.com/91072896/143156824-bc02ed9d-d92d-4bd5-8b28-a9a787185bbc.png)
 
 * ## Iframe<div id='id-frame'/> 
-   * Just at the bottom of the page above the footer an iframe is positioned, this shows the address of the restaurant. This feature can be clicked on and this brings the user to google maps where they can find directions to the reataurant. This is useful as it makes it easy for the user to find the restaurant location.
+   * Just at the bottom of the page above the footer an iframe is positioned, this shows the address of the restaurant. This feature can be clicked on and this brings the user to google maps where they can find directions to the restaurant. This benefits the user as it makes it easy to find the restaurant location.
 ![iframe of business location](https://user-images.githubusercontent.com/91072896/143157863-c5e79e59-fd4e-4e88-9240-128dc3aca521.png)
 
 * ## Footer<div id='id-foot'/> 
-   * At the footer of the page the restaurants contact information is provided. The restaurants phone number, email and address are available. The is important information and is useful to the customer as this gives them information to contact the restaurant to make an order. 
+   * At the footer of the page the restaurants contact information is provided. The restaurants phone number, email and address are available. The information is benefical to the user as this gives them information to contact the restaurant to make an order. 
   * Also provided at the bottom of the page are the restaurants social media links Facebook Instagram and Twitter. The user can follow and interact with the restaurant and check customer reviews. 
   * There is also menu times shown at the footer. This informs the customer at what times lunch, dinner are served and there is also an early bird menu which offer discounted prices.  
   * The footer appears the same on all three webpages.
@@ -105,11 +105,11 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 * Mobile phone/Tablets
   * Using devtools, I tested the responsiveness of the site on all mobile devices and tablets supported by the tool. In addition, I tested it using my Samsung Galaxy A50 phone, an Iphone 12 Pro, and an iPad.
 * Laptop  
-  * I tested the website responsiveness for laptops and larger scrrens using an Apple Macbook an Imac and an ASUS Chromebook Flip C434, as well as using responsiveness devtools.
+  * I tested the website responsiveness for laptops and larger screens using an Apple Macbook an Apple Imac and an ASUS Chromebook Flip C434, as well as using responsiveness devtools.
 * Feedback form
   * Below are the results of my testing of the Feedback form.
     * The form will not be submitted if the name and email text boxes or feedback textarea are not filled out.
-    * If you try to submit the email without entering an email address, a message will request that you enter your email address.
+    * If you try to submit the email without entering an @ symbol, a message will request that an email address is entered.
     * After selecting the submit button, the user will be directed to the thank you page. This confirms the response has been sent.
 
 # Validator Testing<div id='id-validator'/>
@@ -151,7 +151,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 *  When I deployed my website I discovered there was an issue when testing responsiveness on my Samsung Galaxy A50. 
    * The image below shows the bug before it was fixed. The footer overlaps the header and navigation bar when viewing on mobile devices.
    ![bug](https://user-images.githubusercontent.com/91072896/143229122-dceba326-afec-457b-82ad-b3078935e8d4.png)
-* The problem was solved by adding z-index:11; to the header and z-index:1; to the footer. Once the header index number is higher than the footer index the header and navigation bar would overlap the footer as I had intended.
+* The problem was solved by adding z-index 2 to the header and z-index 1 to the footer. Once the header index number is higher than the footer index the header and navigation bar would overlap the footer as I had intended.
 * After my website was deployed, I had a second problem on the about.html page. My website has a fixed header. This was causing issues because the fixed header was preventing input fields from working correctly in the form. I could only use the input fields when I scrolled to the top of the form. But as I scroll down further the input fields fail to work. 
 * I tried to solve this with positioning and using z-index but this did not work. With some help from Slack, I fixed this issue by removing the 400px height from my header, and the form now works correctly.
 
