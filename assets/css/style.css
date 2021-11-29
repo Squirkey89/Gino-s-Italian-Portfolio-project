@@ -446,7 +446,7 @@ label {
 	.left-text,.right-text{
 		font-size: 200%;
 	}
-	footer,#hours{
+	footer{
 		font-size: 125%;
 	}
 	footer h3, #contact, #socials, #time {
@@ -457,6 +457,9 @@ label {
 	}
 	#takeaway > h3{
 		font-size: 35px;
+	}
+	#hours h3{
+		font-size: 1em;
 	}
 	#intro > h3{
 		font-size: 35px;
