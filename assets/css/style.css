@@ -592,6 +592,7 @@ label {
 			width: 70%;
 		}
 }
+
 /* Mobile devices for smaller screens */
 @media screen and (max-width: 600px) {
 		#logo1, #logo2 {
