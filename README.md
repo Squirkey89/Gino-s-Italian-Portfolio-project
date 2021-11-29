@@ -156,11 +156,17 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 * I tried to solve this with positioning and using z-index but this did not work. With some help from Slack, I fixed this issue by removing the 400px height from my header, and the form now works correctly.
 
 # Unfixed Bugs<div id='id-unfix'/> 
-* When testing the website on iPhone 12 Pro. In the footer, the contact number appears in blue text and is underlined. 
+* I encountered one issue while testing the website on iPhone 12 Pro and Apple Ipad. Contact numbers appear in blue text and are underlined in the footer. 
 * The error did not appear on any other device I tested on. It also didn't appear on Chrome dev tools when testing on iPhone 12 pro. 
 * The image below shows this bug. I was unable to fix this.
   
   ![unfixed-bug](https://user-images.githubusercontent.com/91072896/143229126-d7bc87cc-00bc-4cea-8549-216ed274c0e5.png)
+
+* Additionally, I ran into a problem when I posted my project on Slack for review. An individual on Slack noticed that the iframe repeated on his desktop and the pin did not appear or was not interactive.
+* Afterwards, I looked at it again on a desktop and I tested this on two different desktops, but I did not encounter this issue.
+* Since I could not locate the problem, I was unable to fix it.
+![unfix-iframe](https://user-images.githubusercontent.com/91072896/143932124-99c769dd-1395-4429-8f68-d12be4892a9a.png)
+
 
 # Technologies Used<div id='id-tech'/>
 * HTML5- Structure and website layout.
