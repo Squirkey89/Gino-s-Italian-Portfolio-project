@@ -93,7 +93,7 @@ header {
 
 /* main image */
 
-#image {
+#landing-image {
 	background: url('../images/pexels-waldemar-brandt-2290070.jpg') no-repeat center center;
 	background-size: cover;
 	height: 600px;
@@ -101,7 +101,7 @@ header {
 	margin-top: 150px;
 }
 
-#image h1 {
+#landing-image h1 {
 	text-align: center;
 	padding-top: 290px;
 	text-shadow: 2px 2px rgb(0, 0, 0);
@@ -658,7 +658,7 @@ h3 {
 		font-size: 1.8em;
 	}
 
-	#image {
+	#landing-image {
 		height: 510px;
 	}
 
