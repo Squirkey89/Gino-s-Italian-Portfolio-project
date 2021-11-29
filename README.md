@@ -23,7 +23,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
     * [Testing](#id-testing) 
  * [Validator Testing](#id-validator)
  * [Bugs](#id-bugs)
- * [Unfixed Bugs](#id-bugs)
+ * [Unfixed Bugs](#id-unfix)
  * [Technologies used](#id-tech) 
  * [Deployment](#id-deploy)
  * [Credits](#id-credits)
@@ -155,7 +155,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 * After my website was deployed, I had a second problem on the about.html page. My website has a fixed header. This was causing issues because the fixed header was preventing input fields from working correctly in the form. I could only use the input fields when I scrolled to the top of the form. But as I scroll down further the input fields fail to work. 
 * I tried to solve this with positioning and using z-index but this did not work. With some help from Slack, I fixed this issue by removing the 400px height from my header, and the form now works correctly.
 
-# Unfixed Bugs<div id='id-unfixed'/> 
+# Unfixed Bugs<div id='id-unfix'/> 
 * When testing the website on iPhone 12 Pro. In the footer, the contact number appears in blue text and is underlined. 
 * The error did not appear on any other device I tested on. It also didn't appear on Chrome dev tools when testing on iPhone 12 pro. 
 * The image below shows this bug. I was unable to fix this.
