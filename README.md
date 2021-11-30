@@ -66,11 +66,14 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
    ![Introduction text to Restaurant](assets/readme-images/intro.png)
 
   * ### Takeaway<div id='id-take'/> 
-    * This is section of the website is useful to the user as it contains information for on how to order takeaway.
+    * This feature of is the takeaway section. This is where the user will find out how to order.
+    * This section of the website is useful to the user as it contains information for on how to order takeaway.
 ![Takeaway info](assets/readme-images/takeaway-info.png)
 
 * ## Opening Hours<div id='id-open'/> 
-   * Just as the user scrolls down the website the operating hours are available this is centered in the middle of the screen. This is beneficial as its important information for the user, as they could potenially visit or order from the restaurant and the opening times can be easily found. 
+   * This shows the premises opening hours for dining in or takeaway.
+   * Just as the user scrolls down the website the operating hours are available this is centered in the middle of the screen so its easy for the user to notice. 
+   * This is beneficial as its important information for the user, as they could potenially visit or order from the restaurant and the opening times can be easily found. 
 ![Opening-hours](assets/readme-images/opening-hours.png)
 
 * ## Iframe<div id='id-frame'/> 
