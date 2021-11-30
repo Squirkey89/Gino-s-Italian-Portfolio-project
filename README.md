@@ -18,6 +18,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
     * [Iframe](#id-frame)
     * [Footer](#id-foot)
     * [Menu](#id-food)
+    * [About-&-Mission](#id-about+mission)
     * [Feedback Form](#id-feed)
     * [Thank you](#id-thanks)
     * [Testing](#id-testing) 
@@ -66,7 +67,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
    ![Introduction text to Restaurant](assets/readme-images/intro.png)
 
   * ### Takeaway<div id='id-take'/> 
-    * This feature of is the takeaway section. This is where the user will find out how to order.
+    * This feature is the takeaway section. This is where the user will find out how to order.
     * This section of the website is useful to the user as it contains information for on how to order takeaway.
 ![Takeaway info](assets/readme-images/takeaway-info.png)
 
@@ -88,11 +89,17 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 ![Footer](assets/readme-images/footer.png)
 
 * ## Menu<div id='id-food'/>
+   * The menu section is on the second page of the website. Everything relating to food and drink served in the restaurant is displayed on this page.
    * Users are presented with four separate menu options on the Menu page. There is a lunch menu, an early bird menu, a dinner menu, and a drinks menu. The benefits the user as the menu communicates information such as the menu items available and the price of those items.
 ![Menu](assets/readme-images/menu.png)
 
+* ## About & Mission<div id='id-about+mission'/>
+  * The third page of the website features the about page, this provides information about the history of this Italian restaurant. 
+  * This restaurants mission statement also appears on this page. These are of use to the user as they can learn the about the people behind the restaurant and see what it is that they are trying to achieve.
 * ## Feedback Form<div id='id-feed'/>
-   * The feedback form can be found in the about section of the website. Users benefit from the feedback form since it allows them to communicate directly with the restaurant about their experiences.
+   * The feedback form can be found in about.html webpage of the website below the about and mission statement. 
+   * This form takes the customers feedback and directs them to a thank you page.
+   * Users benefit from the feedback form since it allows them to communicate directly with the restaurant about their experiences.
 ![Feedback-form](assets/readme-images/feedback-form.png)
 
 * ## Thank you<div id='id-thanks'/>
