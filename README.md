@@ -8,7 +8,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 # Table of Contents
  * [UX](#id-ux)
     * [User stories](#id-user)
- * [Features](#id-ux) 
+ * [Features](#id-features) 
     * [Navigation](#id-nav)
     * [Landing](#id-landing)
     * [Content](#id-content)
@@ -30,7 +30,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
  * [Acknowledgements](#id-acknowledgements)
 
 # UX<div id='id-ux'/>
-## User Stories<div id='user'/>
+## User Stories<div id='id-user'/>
 * As a customer
   * As a customer I want to be able to see images of the food and restaurant.
   * As a customer I want to be able to read the menu and I would like to see pricing.
@@ -70,7 +70,7 @@ Ginos Italian restaurant specializes in traditional Italian cuisine. The website
 ![Takeaway info](assets/readme-images/takeaway-info.png)
 
 * ## Opening Hours<div id='id-open'/> 
-   * Just as the user scrolls down the website the operating hours are available this is centered in the middle of the screen. This is beneficial to the user as its important information for the user, as they could potenially visit or order from the restaurant and the opening times can be easily found. 
+   * Just as the user scrolls down the website the operating hours are available this is centered in the middle of the screen. This is beneficial as its important information for the user, as they could potenially visit or order from the restaurant and the opening times can be easily found. 
 ![Opening-hours](assets/readme-images/opening-hours.png)
 
 * ## Iframe<div id='id-frame'/> 
