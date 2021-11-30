@@ -189,7 +189,7 @@ header {
 }
 
 
-/* Contact info */
+/* iframe*/
 
 iframe {
 	margin: 20px 0px 40px 120px;
@@ -198,6 +198,8 @@ iframe {
 	width: 80%;
 	height: 200px;
 }
+
+/* footer*/
 
 footer {
 	margin-top: auto;
